@@ -1,0 +1,21 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode: 1 | Reward: 12.0 | Polciy Loss: -1.3891079425811768 | Steps: 12
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.7658112049102783 | Steps: 23
+Episode: 3 | Reward: 10.0 | Polciy Loss: -4.880243301391602 | Steps: 33
+Episode: 4 | Reward: 9.0 | Polciy Loss: -7.040188312530518 | Steps: 42
+Episode: 5 | Reward: 9.0 | Polciy Loss: -10.111104965209961 | Steps: 51
+Episode: 6 | Reward: 10.0 | Polciy Loss: -14.420833587646484 | Steps: 61
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 65, in train
+    action = agent.get_action(state)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 91, in get_action
+    action = self.actor_local.get_det_action(state)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 69, in get_det_action
+    dist = Categorical(action_probs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/distributions/categorical.py", line 70, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/distributions/distribution.py", line 68, in __init__
+    raise ValueError(
+ValueError: Expected parameter probs (Tensor of shape (2,)) of distribution Categorical(probs: torch.Size([2])) to satisfy the constraint Simplex(), but found invalid values:
+tensor([nan, nan])

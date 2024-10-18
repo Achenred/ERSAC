@@ -1,0 +1,1 @@
+{"var_RobustEDAC_train_var": 2.5000000000000018, "var_RobustEDAC_train_mean": 2.5000000000000018, "var_RobustEDAC_test_mean": 2.5000000000000018, "var_RobustEDAC_sim_mean": 500.0, "var_RobustEDAC_sim_var": 500.0, "_timestamp": 1724176832.0880718, "_runtime": 71.71649479866028, "_step": 0, "_wandb": {"runtime": 99}}

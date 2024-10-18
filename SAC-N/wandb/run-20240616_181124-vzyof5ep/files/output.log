@@ -1,0 +1,19 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode: 1 | Reward: 9.0 | Polciy Loss: -1.0537621974945068 | Steps: 9
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.1835570335388184 | Steps: 20
+Episode: 3 | Reward: 10.0 | Polciy Loss: -8.827987670898438 | Steps: 30
+Episode: 4 | Reward: 9.0 | Polciy Loss: -17.582834243774414 | Steps: 39
+Episode: 5 | Reward: 9.0 | Polciy Loss: -24.944307327270508 | Steps: 48
+Episode: 6 | Reward: 10.0 | Polciy Loss: -37.107295989990234 | Steps: 58
+Episode: 7 | Reward: 9.0 | Polciy Loss: nan | Steps: 67
+Episode: 8 | Reward: 9.0 | Polciy Loss: nan | Steps: 76
+Episode: 9 | Reward: 10.0 | Polciy Loss: nan | Steps: 86
+Episode: 10 | Reward: 10.0 | Polciy Loss: nan | Steps: 96
+Episode: 11 | Reward: 10.0 | Polciy Loss: nan | Steps: 106
+Episode: 12 | Reward: 8.0 | Polciy Loss: nan | Steps: 114
+Episode: 13 | Reward: 8.0 | Polciy Loss: nan | Steps: 122
+Episode: 14 | Reward: 10.0 | Polciy Loss: nan | Steps: 132
+Episode: 15 | Reward: 10.0 | Polciy Loss: nan | Steps: 142

@@ -1,0 +1,32 @@
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Configure stats pid to 79331
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Loading settings from /Users/abhilashchenreddy/.config/wandb/settings
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Loading settings from /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/settings
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'SAC-N/train.py', 'program_abspath': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py', 'program': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py'}
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-16 17:28:05,546 INFO    MainThread:79331 [wandb_init.py:_log_setup():520] Logging user logs to /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240616_172805-ux3p0e44/logs/debug.log
+2024-06-16 17:28:05,547 INFO    MainThread:79331 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240616_172805-ux3p0e44/logs/debug-internal.log
+2024-06-16 17:28:05,547 INFO    MainThread:79331 [wandb_init.py:init():560] calling init triggers
+2024-06-16 17:28:05,547 INFO    MainThread:79331 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'run_name': 'SACN-discrete', 'env': 'CartPole-v0', 'episodes': 200, 'buffer_size': 100000, 'seed': 1, 'log_video': 0, 'save_every': 100, 'batch_size': 256}
+2024-06-16 17:28:05,547 INFO    MainThread:79331 [wandb_init.py:init():610] starting backend
+2024-06-16 17:28:05,547 INFO    MainThread:79331 [wandb_init.py:init():614] setting up manager
+2024-06-16 17:28:05,548 INFO    MainThread:79331 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-16 17:28:05,551 INFO    MainThread:79331 [wandb_init.py:init():622] backend started and connected
+2024-06-16 17:28:05,555 INFO    MainThread:79331 [wandb_init.py:init():711] updated telemetry
+2024-06-16 17:28:05,582 INFO    MainThread:79331 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-16 17:28:06,140 INFO    MainThread:79331 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-16 17:28:06,322 INFO    MainThread:79331 [wandb_run.py:_on_init():2411] got version response 
+2024-06-16 17:28:06,322 INFO    MainThread:79331 [wandb_init.py:init():795] starting run threads in backend
+2024-06-16 17:28:06,471 INFO    MainThread:79331 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-16 17:28:06,471 INFO    MainThread:79331 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-16 17:28:06,471 INFO    MainThread:79331 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-16 17:28:06,471 INFO    MainThread:79331 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-16 17:28:06,474 INFO    MainThread:79331 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-16 17:28:08,015 INFO    MainThread:79331 [wandb_watch.py:watch():51] Watching
+2024-06-16 17:28:27,563 INFO    MainThread:79331 [wandb_run.py:_finish():2109] finishing run robust-ac/CQL/ux3p0e44
+2024-06-16 17:28:27,570 INFO    MainThread:79331 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 1
+2024-06-16 17:28:27,570 INFO    MainThread:79331 [wandb_run.py:_restore():2332] restore
+2024-06-16 17:28:27,571 INFO    MainThread:79331 [wandb_run.py:_restore():2338] restore done

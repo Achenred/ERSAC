@@ -1,0 +1,17 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 164, in learn
+    actor_loss, actor_batch_entropy, q_policy_std, log_pis = self.calc_policy_loss(state, current_alpha)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 96, in calc_policy_loss
+    action, action_probs, log_pis = self.actor_local.evaluate(states)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 45, in evaluate
+    print(dist[:5])
+TypeError: 'Categorical' object is not subscriptable
+tensor([[0.5169, 0.4831],
+        [0.5067, 0.4933],
+        [0.5049, 0.4951],
+        [0.5085, 0.4915],
+        [0.5048, 0.4952]], grad_fn=<SliceBackward0>)

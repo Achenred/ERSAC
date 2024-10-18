@@ -1,0 +1,11 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 65, in train
+    action = agent.get_action(state)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 91, in get_action
+    action = self.actor_local.get_det_action(state)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 72, in get_det_action
+    action = torch.argmax(action_probs, dim=1)
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+tensor([0.5123, 0.4877])

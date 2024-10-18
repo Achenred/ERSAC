@@ -1,0 +1,27 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode: 1 | Reward: 9.0 | Polciy Loss: -1.0540841817855835 | Steps: 9
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.095346212387085 | Steps: 20
+Episode: 3 | Reward: 10.0 | Polciy Loss: -4.3446197509765625 | Steps: 30
+Episode: 4 | Reward: 9.0 | Polciy Loss: -6.1919264793396 | Steps: 39
+Episode: 5 | Reward: 9.0 | Polciy Loss: -9.193586349487305 | Steps: 48
+Episode: 6 | Reward: 10.0 | Polciy Loss: -13.596076011657715 | Steps: 58
+Episode: 7 | Reward: 9.0 | Polciy Loss: nan | Steps: 67
+Episode: 8 | Reward: 9.0 | Polciy Loss: nan | Steps: 76
+Episode: 9 | Reward: 10.0 | Polciy Loss: nan | Steps: 86
+Episode: 10 | Reward: 10.0 | Polciy Loss: nan | Steps: 96
+Episode: 11 | Reward: 10.0 | Polciy Loss: nan | Steps: 106
+Episode: 12 | Reward: 8.0 | Polciy Loss: nan | Steps: 114
+Episode: 13 | Reward: 8.0 | Polciy Loss: nan | Steps: 122
+Episode: 14 | Reward: 10.0 | Polciy Loss: nan | Steps: 132
+Episode: 15 | Reward: 10.0 | Polciy Loss: nan | Steps: 142
+Episode: 16 | Reward: 9.0 | Polciy Loss: nan | Steps: 151
+Episode: 17 | Reward: 10.0 | Polciy Loss: nan | Steps: 161
+Episode: 18 | Reward: 10.0 | Polciy Loss: nan | Steps: 171
+Episode: 19 | Reward: 10.0 | Polciy Loss: nan | Steps: 181
+Episode: 20 | Reward: 10.0 | Polciy Loss: nan | Steps: 191
+Episode: 21 | Reward: 10.0 | Polciy Loss: nan | Steps: 201
+Episode: 22 | Reward: 10.0 | Polciy Loss: nan | Steps: 211
+Episode: 23 | Reward: 10.0 | Polciy Loss: nan | Steps: 221
+Episode: 24 | Reward: 9.0 | Polciy Loss: nan | Steps: 230
+Episode: 25 | Reward: 9.0 | Polciy Loss: nan | Steps: 239

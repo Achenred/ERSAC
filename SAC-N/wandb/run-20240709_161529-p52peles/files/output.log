@@ -1,0 +1,57 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 78, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 218, in learn
+    critic_loss = self._critic_loss(state, action, reward, next_state, done)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 163, in _critic_loss
+    sys.exit()
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/wandb/sdk/lib/exit_hooks.py", line 36, in exit
+    self._orig_exit(orig_code)  # type: ignore
+SystemExit: 0
+tensor([[[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]],
+        [[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]],
+        [[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]],
+        ...,
+        [[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]],
+        [[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]],
+        [[1.],
+         [1.],
+         [0.],
+         ...,
+         [1.],
+         [1.],
+         [1.]]], requires_grad=True)

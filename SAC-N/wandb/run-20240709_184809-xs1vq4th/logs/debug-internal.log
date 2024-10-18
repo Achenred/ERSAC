@@ -1,0 +1,179 @@
+2024-07-09 18:48:09,630 INFO    StreamThr :99304 [internal.py:wandb_internal():85] W&B internal server running at pid: 99304, started at: 2024-07-09 18:48:09.629598
+2024-07-09 18:48:09,634 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: status
+2024-07-09 18:48:09,638 INFO    WriterThread:99304 [datastore.py:open_for_write():87] open: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/run-xs1vq4th.wandb
+2024-07-09 18:48:09,639 DEBUG   SenderThread:99304 [sender.py:send():379] send: header
+2024-07-09 18:48:09,673 DEBUG   SenderThread:99304 [sender.py:send():379] send: run
+2024-07-09 18:48:09,990 INFO    SenderThread:99304 [dir_watcher.py:__init__():211] watching files in: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files
+2024-07-09 18:48:09,990 INFO    SenderThread:99304 [sender.py:_start_run_threads():1188] run started: xs1vq4th with start time 1720565289.631467
+2024-07-09 18:48:09,994 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: check_version
+2024-07-09 18:48:09,995 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: check_version
+2024-07-09 18:48:10,174 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 18:48:10,186 DEBUG   HandlerThread:99304 [system_info.py:__init__():26] System info init
+2024-07-09 18:48:10,187 DEBUG   HandlerThread:99304 [system_info.py:__init__():41] System info init done
+2024-07-09 18:48:10,187 INFO    HandlerThread:99304 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 18:48:10,187 INFO    SystemMonitor:99304 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 18:48:10,187 INFO    HandlerThread:99304 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 18:48:10,189 DEBUG   HandlerThread:99304 [system_info.py:probe():152] Probing system
+2024-07-09 18:48:10,190 INFO    SystemMonitor:99304 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 18:48:10,195 INFO    SystemMonitor:99304 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 18:48:10,202 DEBUG   HandlerThread:99304 [system_info.py:_probe_git():137] Probing git
+2024-07-09 18:48:10,205 INFO    SystemMonitor:99304 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 18:48:10,218 INFO    SystemMonitor:99304 [interfaces.py:start():188] Started network monitoring
+2024-07-09 18:48:10,324 DEBUG   HandlerThread:99304 [system_info.py:_probe_git():145] Probing git done
+2024-07-09 18:48:10,326 DEBUG   HandlerThread:99304 [system_info.py:probe():200] Probing system done
+2024-07-09 18:48:10,326 DEBUG   HandlerThread:99304 [system_monitor.py:probe():223] {'os': 'macOS-13.6.7-x86_64-i386-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-07-09T22:48:10.189696', 'startedAt': '2024-07-09T22:48:09.617574', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py', 'codePathLocal': 'train.py', 'codePath': 'SAC-N/train.py', 'git': {'remote': 'https://github.com/Achenred/CQL_AC', 'commit': '2fd085af0f77140d2c5b593c6f3bd66466d8ac50'}, 'email': None, 'root': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC', 'host': 'Nymishas-MacBook-Pro.local', 'username': 'abhilashchenreddy', 'executable': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3100, 'min': 3100, 'max': 3100}, 'cpu_freq_per_core': [{'current': 3100, 'min': 3100, 'max': 3100}], 'disk': {'/': {'total': 233.46913528442383, 'used': 8.705596923828125}}, 'memory': {'total': 8.0}}
+2024-07-09 18:48:10,326 INFO    HandlerThread:99304 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 18:48:10,326 INFO    HandlerThread:99304 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 18:48:10,328 INFO    HandlerThread:99304 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 18:48:10,367 DEBUG   SenderThread:99304 [sender.py:send():379] send: files
+2024-07-09 18:48:10,367 INFO    SenderThread:99304 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-09 18:48:10,824 INFO    wandb-upload_0:99304 [upload_job.py:push():130] Uploaded file /var/folders/0r/77rqg3xx3j71vtp7pmtxr26h0000gp/T/tmpok0qzmu3wandb/cqdbules-wandb-metadata.json
+2024-07-09 18:48:10,834 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 18:48:10,834 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: python_packages
+2024-07-09 18:48:10,836 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-09 18:48:10,837 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: stop_status
+2024-07-09 18:48:10,839 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-09 18:48:10,927 DEBUG   SenderThread:99304 [sender.py:send():379] send: telemetry
+2024-07-09 18:48:10,999 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/requirements.txt
+2024-07-09 18:48:10,999 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-metadata.json
+2024-07-09 18:48:11,842 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-09 18:48:12,842 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-09 18:48:13,633 DEBUG   SenderThread:99304 [sender.py:send():379] send: telemetry
+2024-07-09 18:48:13,843 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-09 18:48:13,918 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: server_info
+2024-07-09 18:48:13,918 DEBUG   SenderThread:99304 [sender.py:send():379] send: telemetry
+2024-07-09 18:48:13,918 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: server_info
+2024-07-09 18:48:13,983 DEBUG   SenderThread:99304 [sender.py:send():379] send: exit
+2024-07-09 18:48:13,983 INFO    SenderThread:99304 [sender.py:send_exit():586] handling exit code: 1
+2024-07-09 18:48:13,983 INFO    SenderThread:99304 [sender.py:send_exit():588] handling runtime: 3
+2024-07-09 18:48:13,986 INFO    SenderThread:99304 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-09 18:48:13,988 INFO    SenderThread:99304 [sender.py:send_exit():594] send defer
+2024-07-09 18:48:13,988 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:13,989 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-09 18:48:13,990 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:13,990 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-09 18:48:13,990 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 1
+2024-07-09 18:48:13,991 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:13,991 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-09 18:48:13,991 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:13,992 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-09 18:48:13,992 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 2
+2024-07-09 18:48:13,992 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:13,992 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-09 18:48:13,992 INFO    HandlerThread:99304 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-09 18:48:13,993 DEBUG   SystemMonitor:99304 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-09 18:48:13,993 DEBUG   SystemMonitor:99304 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-09 18:48:13,993 DEBUG   SystemMonitor:99304 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-09 18:48:13,994 INFO    HandlerThread:99304 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-09 18:48:13,995 INFO    HandlerThread:99304 [interfaces.py:finish():200] Joined disk monitor
+2024-07-09 18:48:13,995 INFO    HandlerThread:99304 [interfaces.py:finish():200] Joined memory monitor
+2024-07-09 18:48:13,996 INFO    HandlerThread:99304 [interfaces.py:finish():200] Joined network monitor
+2024-07-09 18:48:13,997 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:13,997 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-09 18:48:13,997 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 3
+2024-07-09 18:48:13,997 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:13,997 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-09 18:48:13,998 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:13,998 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-09 18:48:13,999 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 4
+2024-07-09 18:48:13,999 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:14,000 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-09 18:48:14,000 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:14,001 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-09 18:48:14,001 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 5
+2024-07-09 18:48:14,002 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-summary.json
+2024-07-09 18:48:14,002 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:14,003 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/output.log
+2024-07-09 18:48:14,003 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-09 18:48:14,004 DEBUG   SenderThread:99304 [sender.py:send():379] send: summary
+2024-07-09 18:48:14,005 INFO    SenderThread:99304 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-09 18:48:14,006 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:14,006 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-09 18:48:14,006 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 6
+2024-07-09 18:48:14,007 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:14,007 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-09 18:48:14,008 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:14,008 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-09 18:48:14,014 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 18:48:14,113 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 7
+2024-07-09 18:48:14,114 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:14,114 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-09 18:48:14,114 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:14,114 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-09 18:48:14,987 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-09 18:48:15,002 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/config.yaml
+2024-07-09 18:48:15,003 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-summary.json
+2024-07-09 18:48:15,897 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 8
+2024-07-09 18:48:15,897 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: poll_exit
+2024-07-09 18:48:15,897 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:15,898 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-09 18:48:15,898 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:15,898 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-09 18:48:15,898 INFO    SenderThread:99304 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-09 18:48:15,899 INFO    SenderThread:99304 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-09 18:48:15,992 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-09 18:48:16,003 INFO    SenderThread:99304 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-09 18:48:16,006 INFO    Thread-12 :99304 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/output.log
+2024-07-09 18:48:16,009 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 9
+2024-07-09 18:48:16,009 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: poll_exit
+2024-07-09 18:48:16,011 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:16,011 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-09 18:48:16,012 DEBUG   SenderThread:99304 [sender.py:send():379] send: artifact
+2024-07-09 18:48:16,386 INFO    SenderThread:99304 [sender.py:send_artifact():1530] sent artifact job-https___github.com_Achenred_CQL_AC_SAC-N_train.py - {'id': 'QXJ0aWZhY3Q6OTQ5MzYzMjc2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE5MDYwOTQwNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTQ5MzYzMjc2', 'versionIndex': 4}}}
+2024-07-09 18:48:16,386 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:16,386 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-09 18:48:16,386 INFO    SenderThread:99304 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-09 18:48:16,995 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-09 18:48:17,010 INFO    SenderThread:99304 [dir_watcher.py:finish():388] scan: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files
+2024-07-09 18:48:17,010 INFO    SenderThread:99304 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/requirements.txt requirements.txt
+2024-07-09 18:48:17,010 INFO    SenderThread:99304 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/output.log output.log
+2024-07-09 18:48:17,011 INFO    SenderThread:99304 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/config.yaml config.yaml
+2024-07-09 18:48:17,011 INFO    SenderThread:99304 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-summary.json wandb-summary.json
+2024-07-09 18:48:17,012 INFO    SenderThread:99304 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-metadata.json wandb-metadata.json
+2024-07-09 18:48:17,017 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 10
+2024-07-09 18:48:17,022 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: poll_exit
+2024-07-09 18:48:17,026 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:17,034 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-09 18:48:17,034 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:17,035 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-09 18:48:17,036 INFO    SenderThread:99304 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-09 18:48:17,269 INFO    wandb-upload_1:99304 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/output.log
+2024-07-09 18:48:17,426 INFO    wandb-upload_2:99304 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/config.yaml
+2024-07-09 18:48:17,431 INFO    wandb-upload_3:99304 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/wandb-summary.json
+2024-07-09 18:48:17,431 INFO    wandb-upload_0:99304 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/files/requirements.txt
+2024-07-09 18:48:17,632 INFO    Thread-11 :99304 [sender.py:transition_state():614] send defer: 11
+2024-07-09 18:48:17,632 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:17,633 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-09 18:48:17,633 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:17,633 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-09 18:48:17,634 INFO    SenderThread:99304 [file_pusher.py:join():175] waiting for file pusher
+2024-07-09 18:48:17,634 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 12
+2024-07-09 18:48:17,634 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:17,634 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-09 18:48:17,635 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:17,635 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-09 18:48:17,635 INFO    SenderThread:99304 [file_stream.py:finish():601] file stream finish called
+2024-07-09 18:48:17,706 INFO    SenderThread:99304 [file_stream.py:finish():605] file stream finish is done
+2024-07-09 18:48:17,706 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 13
+2024-07-09 18:48:17,706 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:17,706 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-09 18:48:17,707 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:17,707 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-09 18:48:17,708 INFO    SenderThread:99304 [sender.py:transition_state():614] send defer: 14
+2024-07-09 18:48:17,709 DEBUG   SenderThread:99304 [sender.py:send():379] send: final
+2024-07-09 18:48:17,709 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 18:48:17,710 DEBUG   SenderThread:99304 [sender.py:send():379] send: footer
+2024-07-09 18:48:17,710 INFO    HandlerThread:99304 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-09 18:48:17,710 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: defer
+2024-07-09 18:48:17,711 INFO    SenderThread:99304 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-09 18:48:17,712 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-09 18:48:17,712 DEBUG   SenderThread:99304 [sender.py:send_request():406] send_request: poll_exit
+2024-07-09 18:48:17,713 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-09 18:48:17,714 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-09 18:48:17,715 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-09 18:48:17,715 DEBUG   HandlerThread:99304 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-09 18:48:17,715 INFO    HandlerThread:99304 [handler.py:finish():882] shutting down handler
+2024-07-09 18:48:18,717 INFO    WriterThread:99304 [datastore.py:close():296] close: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_184809-xs1vq4th/run-xs1vq4th.wandb
+2024-07-09 18:48:18,718 INFO    SenderThread:99304 [sender.py:finish():1608] shutting down sender
+2024-07-09 18:48:18,719 INFO    SenderThread:99304 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-09 18:48:18,719 INFO    SenderThread:99304 [file_pusher.py:join():175] waiting for file pusher

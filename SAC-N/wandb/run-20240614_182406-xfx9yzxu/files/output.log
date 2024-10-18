@@ -1,0 +1,16 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 155, in learn
+    actor_loss, actor_batch_entropy, q_policy_std, log_pis = self.calc_policy_loss(state, current_alpha)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 98, in calc_policy_loss
+    q_value_dist = self.critic(states, action)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 158, in forward
+    state_action = torch.cat([state, action], dim=-1)
+RuntimeError: Tensors must have same number of dimensions: got 2 and 1

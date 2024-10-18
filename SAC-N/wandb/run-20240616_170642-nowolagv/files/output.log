@@ -1,0 +1,59 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([2, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode: 1 | Reward: 9.0 | Polciy Loss: -1.0823043584823608 | Steps: 9
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.3405799865722656 | Steps: 20
+Episode: 3 | Reward: 10.0 | Polciy Loss: -9.298755645751953 | Steps: 30
+Episode: 4 | Reward: 9.0 | Polciy Loss: -17.804738998413086 | Steps: 39
+Episode: 5 | Reward: 9.0 | Polciy Loss: -25.363889694213867 | Steps: 48
+Episode: 6 | Reward: 10.0 | Polciy Loss: -37.553955078125 | Steps: 58
+Episode: 7 | Reward: 9.0 | Polciy Loss: nan | Steps: 67
+Episode: 8 | Reward: 9.0 | Polciy Loss: nan | Steps: 76
+Episode: 9 | Reward: 10.0 | Polciy Loss: nan | Steps: 86
+Episode: 10 | Reward: 10.0 | Polciy Loss: nan | Steps: 96
+Episode: 11 | Reward: 10.0 | Polciy Loss: nan | Steps: 106
+Episode: 12 | Reward: 8.0 | Polciy Loss: nan | Steps: 114
+Episode: 13 | Reward: 8.0 | Polciy Loss: nan | Steps: 122
+Episode: 14 | Reward: 10.0 | Polciy Loss: nan | Steps: 132
+Episode: 15 | Reward: 10.0 | Polciy Loss: nan | Steps: 142
+Episode: 16 | Reward: 9.0 | Polciy Loss: nan | Steps: 151
+Episode: 17 | Reward: 10.0 | Polciy Loss: nan | Steps: 161
+Episode: 18 | Reward: 10.0 | Polciy Loss: nan | Steps: 171
+Episode: 19 | Reward: 10.0 | Polciy Loss: nan | Steps: 181
+Episode: 20 | Reward: 10.0 | Polciy Loss: nan | Steps: 191
+Episode: 21 | Reward: 10.0 | Polciy Loss: nan | Steps: 201
+Episode: 22 | Reward: 10.0 | Polciy Loss: nan | Steps: 211
+Episode: 23 | Reward: 10.0 | Polciy Loss: nan | Steps: 221
+Episode: 24 | Reward: 9.0 | Polciy Loss: nan | Steps: 230
+Episode: 25 | Reward: 9.0 | Polciy Loss: nan | Steps: 239
+Episode: 26 | Reward: 10.0 | Polciy Loss: nan | Steps: 249
+Episode: 27 | Reward: 9.0 | Polciy Loss: nan | Steps: 258
+Episode: 28 | Reward: 11.0 | Polciy Loss: nan | Steps: 269
+Episode: 29 | Reward: 9.0 | Polciy Loss: nan | Steps: 278
+Episode: 30 | Reward: 8.0 | Polciy Loss: nan | Steps: 286
+Episode: 31 | Reward: 10.0 | Polciy Loss: nan | Steps: 296
+Episode: 32 | Reward: 9.0 | Polciy Loss: nan | Steps: 305
+Episode: 33 | Reward: 11.0 | Polciy Loss: nan | Steps: 316
+Episode: 34 | Reward: 8.0 | Polciy Loss: nan | Steps: 324
+Episode: 35 | Reward: 9.0 | Polciy Loss: nan | Steps: 333
+Episode: 36 | Reward: 10.0 | Polciy Loss: nan | Steps: 343
+Episode: 37 | Reward: 10.0 | Polciy Loss: nan | Steps: 353
+Episode: 38 | Reward: 9.0 | Polciy Loss: nan | Steps: 362
+Episode: 39 | Reward: 10.0 | Polciy Loss: nan | Steps: 372
+Episode: 40 | Reward: 9.0 | Polciy Loss: nan | Steps: 381
+Episode: 41 | Reward: 10.0 | Polciy Loss: nan | Steps: 391
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 195, in learn
+    actor_loss.backward()
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/wandb/wandb_torch.py", line 271, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt
+Episode: 42 | Reward: 10.0 | Polciy Loss: nan | Steps: 401
+Episode: 43 | Reward: 10.0 | Polciy Loss: nan | Steps: 411

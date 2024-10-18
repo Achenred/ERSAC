@@ -1,0 +1,22 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 170, in learn
+    actor_loss, actor_batch_entropy, q_policy_std, log_pis = self.calc_policy_loss(state, current_alpha)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 104, in calc_policy_loss
+    sys.exit()
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/wandb/sdk/lib/exit_hooks.py", line 36, in exit
+    self._orig_exit(orig_code)  # type: ignore
+SystemExit: 0
+tensor([[ 0.0022,  0.0032],
+        [-0.0082,  0.0044],
+        [ 0.0056, -0.0038],
+        [-0.0002,  0.0038],
+        [-0.0041, -0.0025],
+        [ 0.0018, -0.0012],
+        [ 0.0014, -0.0023],
+        [ 0.0012,  0.0049],
+        [ 0.0024, -0.0043],
+        [-0.0032,  0.0028]], grad_fn=<SliceBackward0>)

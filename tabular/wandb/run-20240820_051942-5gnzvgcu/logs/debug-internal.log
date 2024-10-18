@@ -1,0 +1,394 @@
+2024-08-20 05:19:43,568 INFO    StreamThr :54050 [internal.py:wandb_internal():85] W&B internal server running at pid: 54050, started at: 2024-08-20 05:19:43.555275
+2024-08-20 05:19:43,571 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status
+2024-08-20 05:19:43,573 INFO    WriterThread:54050 [datastore.py:open_for_write():87] open: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/run-5gnzvgcu.wandb
+2024-08-20 05:19:43,577 DEBUG   SenderThread:54050 [sender.py:send():379] send: header
+2024-08-20 05:19:43,577 DEBUG   SenderThread:54050 [sender.py:send():379] send: run
+2024-08-20 05:19:43,936 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: check_version
+2024-08-20 05:19:43,938 INFO    SenderThread:54050 [dir_watcher.py:__init__():211] watching files in: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files
+2024-08-20 05:19:43,938 INFO    SenderThread:54050 [sender.py:_start_run_threads():1188] run started: 5gnzvgcu with start time 1724145582.662337
+2024-08-20 05:19:43,938 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: check_version
+2024-08-20 05:19:44,088 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: run_start
+2024-08-20 05:19:44,091 DEBUG   HandlerThread:54050 [system_info.py:__init__():26] System info init
+2024-08-20 05:19:44,091 DEBUG   HandlerThread:54050 [system_info.py:__init__():41] System info init done
+2024-08-20 05:19:44,091 INFO    HandlerThread:54050 [system_monitor.py:start():194] Starting system monitor
+2024-08-20 05:19:44,091 INFO    SystemMonitor:54050 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-20 05:19:44,091 INFO    HandlerThread:54050 [system_monitor.py:probe():214] Collecting system info
+2024-08-20 05:19:44,092 DEBUG   HandlerThread:54050 [system_info.py:probe():152] Probing system
+2024-08-20 05:19:44,093 INFO    SystemMonitor:54050 [interfaces.py:start():188] Started cpu monitoring
+2024-08-20 05:19:44,094 INFO    SystemMonitor:54050 [interfaces.py:start():188] Started disk monitoring
+2024-08-20 05:19:44,094 INFO    SystemMonitor:54050 [interfaces.py:start():188] Started memory monitoring
+2024-08-20 05:19:44,097 INFO    SystemMonitor:54050 [interfaces.py:start():188] Started network monitoring
+2024-08-20 05:19:44,099 DEBUG   HandlerThread:54050 [system_info.py:_probe_git():137] Probing git
+2024-08-20 05:19:44,159 DEBUG   HandlerThread:54050 [system_info.py:_probe_git():145] Probing git done
+2024-08-20 05:19:44,159 DEBUG   HandlerThread:54050 [system_info.py:probe():200] Probing system done
+2024-08-20 05:19:44,159 DEBUG   HandlerThread:54050 [system_monitor.py:probe():223] {'os': 'macOS-13.6.9-x86_64-i386-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-08-20T09:19:44.093191', 'startedAt': '2024-08-20T09:19:42.646971', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/main_v1.py', 'codePathLocal': 'main_v1.py', 'codePath': 'tabular/main_v1.py', 'git': {'remote': 'https://github.com/Achenred/CQL_AC', 'commit': '2fd085af0f77140d2c5b593c6f3bd66466d8ac50'}, 'email': None, 'root': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC', 'host': 'Nymishas-MacBook-Pro.local', 'username': 'abhilashchenreddy', 'executable': '/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3100, 'min': 3100, 'max': 3100}, 'cpu_freq_per_core': [{'current': 3100, 'min': 3100, 'max': 3100}], 'disk': {'/': {'total': 233.46913528442383, 'used': 8.705921173095703}}, 'memory': {'total': 8.0}}
+2024-08-20 05:19:44,160 INFO    HandlerThread:54050 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-20 05:19:44,160 INFO    HandlerThread:54050 [system_monitor.py:probe():227] Publishing system info
+2024-08-20 05:19:44,161 INFO    HandlerThread:54050 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-20 05:19:44,162 DEBUG   SenderThread:54050 [sender.py:send():379] send: files
+2024-08-20 05:19:44,162 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-08-20 05:19:44,631 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-20 05:19:44,632 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: python_packages
+2024-08-20 05:19:44,636 DEBUG   SenderThread:54050 [sender.py:send():379] send: telemetry
+2024-08-20 05:19:44,666 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:19:44,666 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:44,667 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:19:44,683 INFO    wandb-upload_0:54050 [upload_job.py:push():130] Uploaded file /var/folders/0r/77rqg3xx3j71vtp7pmtxr26h0000gp/T/tmpnozlu5sswandb/p43bncpj-wandb-metadata.json
+2024-08-20 05:19:44,951 INFO    Thread-672:54050 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/requirements.txt
+2024-08-20 05:19:44,951 INFO    Thread-672:54050 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-metadata.json
+2024-08-20 05:19:44,952 INFO    Thread-672:54050 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:19:46,274 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:46,958 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:19:47,018 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:48,907 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:48,930 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:19:50,118 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:53,733 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:53,824 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:54,576 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:19:55,446 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:55,883 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:57,881 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:19:59,716 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:00,100 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:01,270 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:20:01,271 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:20:01,301 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:01,642 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:03,651 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:05,091 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:07,722 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:09,977 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:10,121 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:11,302 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:11,550 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:14,386 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:15,141 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:15,436 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:20:15,437 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:20:15,996 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:16,117 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/config.yaml
+2024-08-20 05:20:16,317 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:18,019 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:18,552 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:19,554 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:20,925 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:20,966 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:21,827 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:22,817 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:23,773 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:24,836 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:25,981 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:26,553 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:26,990 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:28,627 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:29,039 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:31,016 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:31,910 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:20:31,911 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:20:31,971 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:36,009 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:36,207 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:36,216 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:37,223 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:37,225 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:20:38,222 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:39,363 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:39,550 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:20:39,552 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:20:39,553 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:20:39,554 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:20:40,241 INFO    Thread-672:54050 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:20:40,242 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:41,248 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:41,544 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:42,261 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:43,256 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:44,106 DEBUG   SystemMonitor:54050 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-20 05:20:44,108 DEBUG   SenderThread:54050 [sender.py:send():379] send: stats
+2024-08-20 05:20:44,261 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:44,935 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:20:44,935 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:20:45,266 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:46,276 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:46,552 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:47,271 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:48,289 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:49,293 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:50,299 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:51,349 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:51,561 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:52,420 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:20:52,422 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:20:52,423 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:20:52,425 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:52,426 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:20:53,311 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:20:53,312 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:20:53,356 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:55,026 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:20:55,028 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:55,028 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:20:55,029 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:20:55,030 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:20:55,319 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:20:55,320 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:20:55,364 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:56,486 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:56,839 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:20:56,840 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:20:56,841 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:20:56,841 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:20:56,842 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:20:57,329 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:20:57,330 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:20:57,436 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:58,428 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:20:58,430 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:20:58,430 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:20:58,431 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:20:58,450 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:20:59,345 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:20:59,346 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:20:59,484 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:00,016 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:21:00,017 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:21:00,020 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:00,302 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:00,302 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:00,306 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:00,347 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:00,475 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:01,349 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:01,518 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:01,570 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:01,572 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:01,572 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:01,572 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:02,053 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:02,349 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:02,498 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:03,354 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:03,507 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:04,515 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:05,359 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:05,524 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:06,526 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:07,133 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:07,371 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:07,531 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:08,538 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:09,378 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:09,544 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:10,555 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:10,557 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:10,558 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:10,558 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:10,561 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:11,384 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:11,385 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:11,565 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:12,185 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:12,571 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:13,395 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:13,578 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:14,113 DEBUG   SenderThread:54050 [sender.py:send():379] send: stats
+2024-08-20 05:21:14,586 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:14,946 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:21:14,947 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:21:15,406 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:15,595 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:16,601 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:17,398 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:17,421 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:17,607 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:18,613 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:19,430 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:19,682 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:20,222 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:20,223 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:20,223 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:20,224 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:20,438 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:20,621 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:21,445 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:21,631 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:22,505 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:22,643 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:23,463 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:23,654 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:24,663 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:25,473 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:25,673 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:26,681 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:27,488 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:27,619 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:27,689 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:28,466 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:28,467 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:28,467 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:28,468 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:28,495 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:28,698 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:29,503 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:29,705 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:29,959 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-20 05:21:29,959 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: stop_status
+2024-08-20 05:21:30,708 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:31,513 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:31,712 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:32,724 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:32,763 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:33,517 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:33,731 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:34,738 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:35,525 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:35,740 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:36,749 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:37,551 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:37,687 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:37,689 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:37,689 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:37,691 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:37,947 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:38,516 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-20 05:21:38,520 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: server_info
+2024-08-20 05:21:38,520 DEBUG   SenderThread:54050 [sender.py:send():379] send: history
+2024-08-20 05:21:38,520 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: summary_record
+2024-08-20 05:21:38,521 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:38,521 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:38,522 DEBUG   SenderThread:54050 [sender.py:send():379] send: telemetry
+2024-08-20 05:21:38,522 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: server_info
+2024-08-20 05:21:38,554 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:38,592 DEBUG   SenderThread:54050 [sender.py:send():379] send: exit
+2024-08-20 05:21:38,593 INFO    SenderThread:54050 [sender.py:send_exit():586] handling exit code: 0
+2024-08-20 05:21:38,593 INFO    SenderThread:54050 [sender.py:send_exit():588] handling runtime: 114
+2024-08-20 05:21:38,594 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:38,595 INFO    SenderThread:54050 [sender.py:send_exit():594] send defer
+2024-08-20 05:21:38,595 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,595 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-20 05:21:38,596 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,596 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-08-20 05:21:38,596 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 1
+2024-08-20 05:21:38,597 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,597 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-20 05:21:38,597 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,598 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-08-20 05:21:38,598 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 2
+2024-08-20 05:21:38,598 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,598 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-20 05:21:38,598 INFO    HandlerThread:54050 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-20 05:21:38,599 DEBUG   SystemMonitor:54050 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-20 05:21:38,599 DEBUG   SystemMonitor:54050 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-20 05:21:38,601 INFO    HandlerThread:54050 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-20 05:21:38,601 INFO    HandlerThread:54050 [interfaces.py:finish():200] Joined disk monitor
+2024-08-20 05:21:38,602 INFO    HandlerThread:54050 [interfaces.py:finish():200] Joined memory monitor
+2024-08-20 05:21:38,602 INFO    HandlerThread:54050 [interfaces.py:finish():200] Joined network monitor
+2024-08-20 05:21:38,603 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,603 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-08-20 05:21:38,603 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 3
+2024-08-20 05:21:38,604 DEBUG   SenderThread:54050 [sender.py:send():379] send: stats
+2024-08-20 05:21:38,604 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,605 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-20 05:21:38,605 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,606 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-08-20 05:21:38,606 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 4
+2024-08-20 05:21:38,606 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,606 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-20 05:21:38,607 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,607 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-08-20 05:21:38,607 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 5
+2024-08-20 05:21:38,608 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,608 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-20 05:21:38,609 DEBUG   SenderThread:54050 [sender.py:send():379] send: summary
+2024-08-20 05:21:38,611 INFO    SenderThread:54050 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-08-20 05:21:38,612 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,612 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-08-20 05:21:38,612 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 6
+2024-08-20 05:21:38,612 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,612 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-20 05:21:38,613 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,613 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-08-20 05:21:38,620 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: status_report
+2024-08-20 05:21:38,723 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 7
+2024-08-20 05:21:38,723 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:38,724 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-20 05:21:38,724 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:38,724 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-08-20 05:21:39,397 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 8
+2024-08-20 05:21:39,397 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:39,398 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-20 05:21:39,398 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:39,398 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-08-20 05:21:39,399 INFO    SenderThread:54050 [job_builder.py:build():440] Attempting to build job artifact
+2024-08-20 05:21:39,402 INFO    SenderThread:54050 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-08-20 05:21:39,414 INFO    SenderThread:54050 [job_builder.py:build():545] adding wandb-job metadata file
+2024-08-20 05:21:39,433 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 9
+2024-08-20 05:21:39,434 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:39,434 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-20 05:21:39,434 DEBUG   SenderThread:54050 [sender.py:send():379] send: artifact
+2024-08-20 05:21:39,565 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:39,566 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/config.yaml
+2024-08-20 05:21:39,567 INFO    Thread-672:54050 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:39,595 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-20 05:21:39,827 INFO    SenderThread:54050 [sender.py:send_artifact():1530] sent artifact job-https___github.com_Achenred_CQL_AC_tabular_main_v1.py - {'id': 'QXJ0aWZhY3Q6MTE1Njk3MDkzOA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQxNDI1OTcwNA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE1Njk3MDkzOA==', 'versionIndex': 5}}}
+2024-08-20 05:21:39,827 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:39,828 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-08-20 05:21:39,828 INFO    SenderThread:54050 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-20 05:21:40,576 INFO    SenderThread:54050 [dir_watcher.py:finish():388] scan: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files
+2024-08-20 05:21:40,576 INFO    SenderThread:54050 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/requirements.txt requirements.txt
+2024-08-20 05:21:40,577 INFO    SenderThread:54050 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log output.log
+2024-08-20 05:21:40,583 INFO    SenderThread:54050 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/config.yaml config.yaml
+2024-08-20 05:21:40,588 INFO    SenderThread:54050 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json wandb-summary.json
+2024-08-20 05:21:40,589 INFO    SenderThread:54050 [dir_watcher.py:finish():402] scan save: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-metadata.json wandb-metadata.json
+2024-08-20 05:21:40,592 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 10
+2024-08-20 05:21:40,592 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: poll_exit
+2024-08-20 05:21:40,593 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:40,593 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-20 05:21:40,594 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:40,596 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-08-20 05:21:40,597 INFO    SenderThread:54050 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-20 05:21:40,598 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-20 05:21:40,599 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: poll_exit
+2024-08-20 05:21:40,848 INFO    wandb-upload_0:54050 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/requirements.txt
+2024-08-20 05:21:41,067 INFO    wandb-upload_2:54050 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/config.yaml
+2024-08-20 05:21:41,073 INFO    wandb-upload_3:54050 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/wandb-summary.json
+2024-08-20 05:21:41,106 INFO    wandb-upload_1:54050 [upload_job.py:push():130] Uploaded file /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/files/output.log
+2024-08-20 05:21:41,314 INFO    Thread-671:54050 [sender.py:transition_state():614] send defer: 11
+2024-08-20 05:21:41,315 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:41,316 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-20 05:21:41,316 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:41,316 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-08-20 05:21:41,317 INFO    SenderThread:54050 [file_pusher.py:join():175] waiting for file pusher
+2024-08-20 05:21:41,325 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 12
+2024-08-20 05:21:41,326 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:41,326 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-20 05:21:41,327 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:41,327 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-08-20 05:21:41,327 INFO    SenderThread:54050 [file_stream.py:finish():601] file stream finish called
+2024-08-20 05:21:41,603 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-20 05:21:41,605 INFO    SenderThread:54050 [file_stream.py:finish():605] file stream finish is done
+2024-08-20 05:21:41,606 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 13
+2024-08-20 05:21:41,606 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:41,606 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-20 05:21:41,607 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: poll_exit
+2024-08-20 05:21:41,607 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:41,607 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-08-20 05:21:41,608 INFO    SenderThread:54050 [sender.py:transition_state():614] send defer: 14
+2024-08-20 05:21:41,609 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: defer
+2024-08-20 05:21:41,609 DEBUG   SenderThread:54050 [sender.py:send():379] send: final
+2024-08-20 05:21:41,610 INFO    HandlerThread:54050 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-20 05:21:41,610 DEBUG   SenderThread:54050 [sender.py:send():379] send: footer
+2024-08-20 05:21:41,611 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: defer
+2024-08-20 05:21:41,611 INFO    SenderThread:54050 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-08-20 05:21:41,612 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-20 05:21:41,613 DEBUG   SenderThread:54050 [sender.py:send_request():406] send_request: poll_exit
+2024-08-20 05:21:41,615 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-20 05:21:41,617 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-20 05:21:41,618 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-20 05:21:41,623 DEBUG   HandlerThread:54050 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-20 05:21:41,623 INFO    HandlerThread:54050 [handler.py:finish():882] shutting down handler
+2024-08-20 05:21:42,620 INFO    WriterThread:54050 [datastore.py:close():296] close: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/tabular/wandb/run-20240820_051942-5gnzvgcu/run-5gnzvgcu.wandb
+2024-08-20 05:21:42,621 INFO    SenderThread:54050 [sender.py:finish():1608] shutting down sender
+2024-08-20 05:21:42,621 INFO    SenderThread:54050 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-20 05:21:42,622 INFO    SenderThread:54050 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,78 @@
+wandb_version: 1
+
+run_name:
+  desc: null
+  value: CQL-SAC
+env:
+  desc: null
+  value: Pendulum-v1
+episodes:
+  desc: null
+  value: 300
+buffer_size:
+  desc: null
+  value: 100000
+seed:
+  desc: null
+  value: 1
+log_video:
+  desc: null
+  value: 0
+save_every:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 256
+hidden_size:
+  desc: null
+  value: 256
+learning_rate:
+  desc: null
+  value: 0.0003
+temperature:
+  desc: null
+  value: 1.0
+cql_weight:
+  desc: null
+  value: 1.0
+target_action_gap:
+  desc: null
+  value: 10
+with_lagrange:
+  desc: null
+  value: 0
+tau:
+  desc: null
+  value: 0.005
+eval_every:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.6
+    cli_version: 0.17.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1727359970
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 1
+      - 2
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.9.6
+      5: 0.17.1
+      8:
+      - 5
+      13: darwin-x86_64

@@ -1,0 +1,72 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Episode: 1 | Reward: 11.0 | Polciy Loss: -0.8146617412567139 | Steps: 11
+Episode: 2 | Reward: 27.0 | Polciy Loss: -2.479370594024658 | Steps: 38
+Episode: 3 | Reward: 41.0 | Polciy Loss: -2.6328604221343994 | Steps: 79
+Episode: 4 | Reward: 26.0 | Polciy Loss: -2.940626621246338 | Steps: 105
+Episode: 5 | Reward: 21.0 | Polciy Loss: -3.111886978149414 | Steps: 126
+Episode: 6 | Reward: 38.0 | Polciy Loss: -3.5443928241729736 | Steps: 164
+Episode: 7 | Reward: 28.0 | Polciy Loss: -3.855637311935425 | Steps: 192
+Episode: 8 | Reward: 10.0 | Polciy Loss: -3.9844396114349365 | Steps: 202
+Episode: 9 | Reward: 28.0 | Polciy Loss: -4.326934814453125 | Steps: 230
+Episode: 10 | Reward: 20.0 | Polciy Loss: -4.536770343780518 | Steps: 250
+Episode: 11 | Reward: 42.0 | Polciy Loss: -4.990236282348633 | Steps: 292
+Episode: 12 | Reward: 13.0 | Polciy Loss: -5.162219524383545 | Steps: 305
+Episode: 13 | Reward: 12.0 | Polciy Loss: -5.379972457885742 | Steps: 317
+Episode: 14 | Reward: 22.0 | Polciy Loss: -5.595476150512695 | Steps: 339
+Episode: 15 | Reward: 8.0 | Polciy Loss: -5.728456497192383 | Steps: 347
+Episode: 16 | Reward: 21.0 | Polciy Loss: -5.909939289093018 | Steps: 368
+Episode: 17 | Reward: 13.0 | Polciy Loss: -6.186378002166748 | Steps: 381
+Episode: 18 | Reward: 36.0 | Polciy Loss: -6.452568054199219 | Steps: 417
+Episode: 19 | Reward: 19.0 | Polciy Loss: -6.576604843139648 | Steps: 436
+Episode: 20 | Reward: 11.0 | Polciy Loss: -6.705473899841309 | Steps: 447
+Episode: 21 | Reward: 21.0 | Polciy Loss: -6.976352214813232 | Steps: 468
+Episode: 22 | Reward: 12.0 | Polciy Loss: -7.117553234100342 | Steps: 480
+Episode: 23 | Reward: 23.0 | Polciy Loss: -7.156392574310303 | Steps: 503
+Episode: 24 | Reward: 14.0 | Polciy Loss: -7.463263034820557 | Steps: 517
+Episode: 25 | Reward: 11.0 | Polciy Loss: -7.578012466430664 | Steps: 528
+Episode: 26 | Reward: 16.0 | Polciy Loss: -7.878262519836426 | Steps: 544
+Episode: 27 | Reward: 27.0 | Polciy Loss: -7.835572242736816 | Steps: 571
+Episode: 28 | Reward: 15.0 | Polciy Loss: -8.072220802307129 | Steps: 586
+Episode: 29 | Reward: 38.0 | Polciy Loss: -8.540538787841797 | Steps: 624
+Episode: 30 | Reward: 12.0 | Polciy Loss: -8.614800453186035 | Steps: 636
+Episode: 31 | Reward: 20.0 | Polciy Loss: -8.799945831298828 | Steps: 656
+Episode: 32 | Reward: 27.0 | Polciy Loss: -9.080639839172363 | Steps: 683
+Episode: 33 | Reward: 19.0 | Polciy Loss: -9.293564796447754 | Steps: 702
+Episode: 34 | Reward: 21.0 | Polciy Loss: -9.721253395080566 | Steps: 723
+Episode: 35 | Reward: 16.0 | Polciy Loss: -9.754646301269531 | Steps: 739
+Episode: 36 | Reward: 9.0 | Polciy Loss: -9.730430603027344 | Steps: 748
+Episode: 37 | Reward: 31.0 | Polciy Loss: -9.980319023132324 | Steps: 779
+Episode: 38 | Reward: 12.0 | Polciy Loss: -10.114553451538086 | Steps: 791
+Episode: 39 | Reward: 18.0 | Polciy Loss: -9.671055793762207 | Steps: 809
+Episode: 40 | Reward: 28.0 | Polciy Loss: -10.207517623901367 | Steps: 837
+Episode: 41 | Reward: 58.0 | Polciy Loss: -11.143280982971191 | Steps: 895
+Episode: 42 | Reward: 48.0 | Polciy Loss: -11.545635223388672 | Steps: 943
+Episode: 43 | Reward: 23.0 | Polciy Loss: -11.22793197631836 | Steps: 966
+Episode: 44 | Reward: 12.0 | Polciy Loss: -11.490897178649902 | Steps: 978
+Episode: 45 | Reward: 18.0 | Polciy Loss: -11.53266716003418 | Steps: 996
+Episode: 46 | Reward: 35.0 | Polciy Loss: -11.846268653869629 | Steps: 1031
+Episode: 47 | Reward: 46.0 | Polciy Loss: -12.02904224395752 | Steps: 1077
+Episode: 48 | Reward: 99.0 | Polciy Loss: -12.558420181274414 | Steps: 1176
+Episode: 49 | Reward: 41.0 | Polciy Loss: -12.650839805603027 | Steps: 1217
+Episode: 50 | Reward: 24.0 | Polciy Loss: -13.171207427978516 | Steps: 1241
+Episode: 51 | Reward: 40.0 | Polciy Loss: -13.366649627685547 | Steps: 1281
+Episode: 52 | Reward: 63.0 | Polciy Loss: -14.121221542358398 | Steps: 1344
+Episode: 53 | Reward: 74.0 | Polciy Loss: -14.687119483947754 | Steps: 1418
+Episode: 54 | Reward: 198.0 | Polciy Loss: -15.485137939453125 | Steps: 1616
+Episode: 55 | Reward: 150.0 | Polciy Loss: -16.640472412109375 | Steps: 1766
+Episode: 56 | Reward: 183.0 | Polciy Loss: -18.229129791259766 | Steps: 1949
+Episode: 57 | Reward: 200.0 | Polciy Loss: -18.578632354736328 | Steps: 2149
+Episode: 58 | Reward: 185.0 | Polciy Loss: -19.86872100830078 | Steps: 2334
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/CQL-SAC-discrete/train.py", line 75, in train
+    policy_loss, alpha_loss, bellmann_error1, bellmann_error2, cql1_loss, cql2_loss, current_alpha, lagrange_alpha_loss, lagrange_alpha = agent.learn(steps, buffer.sample(), gamma=0.99)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/CQL-SAC-discrete/agent.py", line 116, in learn
+    actor_loss.backward()
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/wandb/wandb_torch.py", line 271, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt

@@ -1,0 +1,1085 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+tensor([[-0.6600, -0.7275],
+        [-0.6798, -0.7066],
+        [-0.6833, -0.7031],
+        [-0.6763, -0.7103],
+        [-0.6835, -0.7029]], grad_fn=<SliceBackward0>)
+tensor([[-0.6167, -0.7759],
+        [-0.6036, -0.7915],
+        [-0.6132, -0.7801],
+        [-0.5768, -0.8249],
+        [-0.5390, -0.8755]], grad_fn=<SliceBackward0>)
+tensor([[-0.5777, -0.8237],
+        [-0.5310, -0.8868],
+        [-0.5676, -0.8368],
+        [-0.5632, -0.8426],
+        [-0.5716, -0.8315]], grad_fn=<SliceBackward0>)
+tensor([[-0.5270, -0.8925],
+        [-0.4673, -0.9853],
+        [-0.5251, -0.8952],
+        [-0.4387, -1.0353],
+        [-0.4750, -0.9726]], grad_fn=<SliceBackward0>)
+tensor([[-0.4783, -0.9671],
+        [-0.4831, -0.9594],
+        [-0.3941, -1.1218],
+        [-0.4849, -0.9565],
+        [-0.4816, -0.9617]], grad_fn=<SliceBackward0>)
+tensor([[-0.3915, -1.1272],
+        [-0.4210, -1.0683],
+        [-0.4318, -1.0480],
+        [-0.4025, -1.1045],
+        [-0.4432, -1.0272]], grad_fn=<SliceBackward0>)
+tensor([[-0.4075, -1.0945],
+        [-0.3928, -1.1244],
+        [-0.3245, -1.2834],
+        [-0.3939, -1.1221],
+        [-0.3817, -1.1479]], grad_fn=<SliceBackward0>)
+tensor([[-0.3439, -1.2343],
+        [-0.3234, -1.2862],
+        [-0.3293, -1.2710],
+        [-0.2844, -1.3963],
+        [-0.3677, -1.1786]], grad_fn=<SliceBackward0>)
+tensor([[-0.2427, -1.5349],
+        [-0.3306, -1.2676],
+        [-0.3158, -1.3065],
+        [-0.3056, -1.3345],
+        [-0.2081, -1.6721]], grad_fn=<SliceBackward0>)
+Episode: 1 | Reward: 9.0 | Polciy Loss: -1.053769588470459 | Steps: 9
+tensor([[-0.2785, -1.4143],
+        [-0.2966, -1.3601],
+        [-0.2204, -1.6206],
+        [-0.2437, -1.5313],
+        [-0.2828, -1.4010]], grad_fn=<SliceBackward0>)
+tensor([[-0.2039, -1.6905],
+        [-0.2500, -1.5087],
+        [-0.2476, -1.5170],
+        [-0.2654, -1.4563],
+        [-0.2619, -1.4678]], grad_fn=<SliceBackward0>)
+tensor([[-0.1680, -1.8664],
+        [-0.1708, -1.8516],
+        [-0.1011, -2.3415],
+        [-0.2350, -1.5634],
+        [-0.2098, -1.6645]], grad_fn=<SliceBackward0>)
+tensor([[-0.0469, -3.0837],
+        [-0.0834, -2.5259],
+        [-0.1549, -1.9415],
+        [-0.0530, -2.9631],
+        [-0.1417, -2.0241]], grad_fn=<SliceBackward0>)
+tensor([[-0.1812, -1.7974],
+        [-0.1608, -1.9068],
+        [-0.1418, -2.0235],
+        [-0.1776, -1.8156],
+        [-0.1696, -1.8581]], grad_fn=<SliceBackward0>)
+tensor([[-0.0580, -2.8760],
+        [-0.0725, -2.6601],
+        [-0.1575, -1.9259],
+        [-0.0955, -2.3959],
+        [-0.1451, -2.0019]], grad_fn=<SliceBackward0>)
+tensor([[-0.1281, -2.1184],
+        [-0.0972, -2.3787],
+        [-0.1284, -2.1159],
+        [-0.0254, -3.6853],
+        [-0.0952, -2.3991]], grad_fn=<SliceBackward0>)
+tensor([[-0.0389, -3.2673],
+        [-0.0869, -2.4863],
+        [-0.0330, -3.4275],
+        [-0.0303, -3.5113],
+        [-0.0604, -2.8365]], grad_fn=<SliceBackward0>)
+tensor([[-0.0685, -2.7145],
+        [-0.0575, -2.8840],
+        [-0.0843, -2.5158],
+        [-0.0951, -2.3996],
+        [-0.0948, -2.4027]], grad_fn=<SliceBackward0>)
+tensor([[-0.0402, -3.2331],
+        [-0.0391, -3.2600],
+        [-0.0369, -3.3166],
+        [-0.0356, -3.3520],
+        [-0.0736, -2.6453]], grad_fn=<SliceBackward0>)
+tensor([[-2.3814e-02, -3.7494e+00],
+        [-8.6673e-04, -7.0512e+00],
+        [-6.8474e-02, -2.7153e+00],
+        [-4.3021e-02, -3.1675e+00],
+        [-6.5150e-02, -2.7635e+00]], grad_fn=<SliceBackward0>)
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.1839640140533447 | Steps: 20
+tensor([[-0.0177, -4.0423],
+        [-0.0209, -3.8798],
+        [-0.0531, -2.9628],
+        [-0.0561, -2.9085],
+        [-0.0546, -2.9342]], grad_fn=<SliceBackward0>)
+tensor([[-0.0105, -4.5589],
+        [-0.0424, -3.1815],
+        [-0.0393, -3.2573],
+        [-0.0195, -3.9451],
+        [-0.0082, -4.8113]], grad_fn=<SliceBackward0>)
+tensor([[-0.0114, -4.4779],
+        [-0.0229, -3.7868],
+        [-0.0215, -3.8509],
+        [-0.0316, -3.4712],
+        [-0.0350, -3.3708]], grad_fn=<SliceBackward0>)
+tensor([[-0.0296, -3.5355],
+        [-0.0079, -4.8461],
+        [-0.0249, -3.7055],
+        [-0.0283, -3.5781],
+        [-0.0256, -3.6787]], grad_fn=<SliceBackward0>)
+tensor([[-2.3066e-02, -3.7809e+00],
+        [-1.3930e-02, -4.2807e+00],
+        [-3.1898e-03, -5.7494e+00],
+        [-2.0900e-02, -3.8784e+00],
+        [-1.6538e-03, -6.4055e+00]], grad_fn=<SliceBackward0>)
+tensor([[-4.9095e-03, -5.3190e+00],
+        [-4.2807e-03, -5.4558e+00],
+        [-5.3930e-03, -5.2254e+00],
+        [-1.6432e-03, -6.4120e+00],
+        [-1.8513e-02, -3.9985e+00]], grad_fn=<SliceBackward0>)
+tensor([[-1.2091e-02, -4.4213e+00],
+        [-1.2852e-02, -4.3607e+00],
+        [-1.1863e-02, -4.4402e+00],
+        [-1.3253e-02, -4.3301e+00],
+        [-1.7513e-03, -6.3483e+00]], grad_fn=<SliceBackward0>)
+tensor([[-8.6039e-03, -4.7598e+00],
+        [-1.0251e-02, -4.5855e+00],
+        [-1.2451e-03, -6.6892e+00],
+        [-8.5751e-03, -4.7632e+00],
+        [-8.9765e-03, -4.7176e+00]], grad_fn=<SliceBackward0>)
+tensor([[-7.0448e-03, -4.9590e+00],
+        [-1.2899e-04, -8.9557e+00],
+        [-2.7418e-06, -1.2816e+01],
+        [-8.1745e-04, -7.1097e+00],
+        [-2.8860e-03, -5.8493e+00]], grad_fn=<SliceBackward0>)
+tensor([[-5.8124e-03, -5.1507e+00],
+        [-5.5315e-05, -9.8034e+00],
+        [-3.5205e-03, -5.6509e+00],
+        [-4.3868e-03, -5.4313e+00],
+        [-1.9431e-05, -1.0848e+01]], grad_fn=<SliceBackward0>)
+Episode: 3 | Reward: 10.0 | Polciy Loss: -8.83150577545166 | Steps: 30
+tensor([[-6.4373e-06, -1.1946e+01],
+        [-3.4073e-03, -5.6835e+00],
+        [-1.7823e-03, -6.3308e+00],
+        [-4.4764e-03, -5.4112e+00],
+        [-4.5174e-03, -5.4021e+00]], grad_fn=<SliceBackward0>)
+tensor([[-2.6158e-03, -5.9475e+00],
+        [-3.1191e-03, -5.7717e+00],
+        [-2.1311e-03, -6.1522e+00],
+        [-1.3322e-03, -6.6216e+00],
+        [-2.7471e-03, -5.8986e+00]], grad_fn=<SliceBackward0>)
+tensor([[-3.5763e-07, -1.4772e+01],
+        [-2.3162e-03, -6.0690e+00],
+        [-2.0678e-03, -6.1823e+00],
+        [-2.0280e-03, -6.2018e+00],
+        [-2.2076e-03, -6.1170e+00]], grad_fn=<SliceBackward0>)
+tensor([[-5.9487e-05, -9.7289e+00],
+        [-1.7060e-04, -8.6763e+00],
+        [-1.4245e-03, -6.5546e+00],
+        [-1.5691e-03, -6.4580e+00],
+        [ 0.0000e+00, -2.6221e+01]], grad_fn=<SliceBackward0>)
+tensor([[-1.7239e-04, -8.6660e+00],
+        [-9.0998e-04, -7.0025e+00],
+        [-3.0637e-05, -1.0392e+01],
+        [-1.0269e-03, -6.8817e+00],
+        [-1.2159e-05, -1.1316e+01]], grad_fn=<SliceBackward0>)
+tensor([[-1.3113e-06, -1.3562e+01],
+        [-3.5406e-05, -1.0249e+01],
+        [-2.2801e-04, -8.3863e+00],
+        [-6.6757e-06, -1.1924e+01],
+        [-1.9074e-06, -1.3174e+01]], grad_fn=<SliceBackward0>)
+tensor([[-8.2255e-06, -1.1711e+01],
+        [-6.0159e-04, -7.4162e+00],
+        [-5.0462e-04, -7.5920e+00],
+        [-3.7432e-05, -1.0193e+01],
+        [ 0.0000e+00, -2.2179e+01]], grad_fn=<SliceBackward0>)
+tensor([[-3.2859e-04, -8.0210e+00],
+        [-7.7370e-05, -9.4670e+00],
+        [-2.6677e-04, -8.2292e+00],
+        [ 0.0000e+00, -1.8490e+01],
+        [-4.0319e-04, -7.8163e+00]], grad_fn=<SliceBackward0>)
+tensor([[-8.3447e-07, -1.4031e+01],
+        [ 0.0000e+00, -2.5627e+01],
+        [ 0.0000e+00, -2.0011e+01],
+        [-6.8905e-05, -9.5836e+00],
+        [-1.6464e-04, -8.7120e+00]], grad_fn=<SliceBackward0>)
+Episode: 4 | Reward: 9.0 | Polciy Loss: -17.625349044799805 | Steps: 39
+tensor([[-6.2229e-05, -9.6850e+00],
+        [-1.1636e-04, -9.0590e+00],
+        [-1.8294e-04, -8.6063e+00],
+        [-1.3019e-04, -8.9466e+00],
+        [-1.8962e-04, -8.5703e+00]], grad_fn=<SliceBackward0>)
+tensor([[-3.5763e-07, -1.4970e+01],
+        [ 0.0000e+00, -1.9220e+01],
+        [-9.1080e-05, -9.3039e+00],
+        [-7.1526e-07, -1.4195e+01],
+        [-6.4373e-06, -1.1946e+01]], grad_fn=<SliceBackward0>)
+tensor([[-5.5792e-05, -9.7945e+00],
+        [-2.2173e-05, -1.0716e+01],
+        [-5.7221e-06, -1.2063e+01],
+        [-5.4719e-05, -9.8124e+00],
+        [-2.1458e-06, -1.3076e+01]], grad_fn=<SliceBackward0>)
+tensor([[-2.2650e-05, -1.0694e+01],
+        [ 0.0000e+00, -1.9835e+01],
+        [ 0.0000e+00, -1.6903e+01],
+        [-3.8386e-05, -1.0168e+01],
+        [-1.0729e-06, -1.3775e+01]], grad_fn=<SliceBackward0>)
+tensor([[-3.0280e-05, -1.0405e+01],
+        [-3.2187e-06, -1.2652e+01],
+        [-7.0334e-06, -1.1861e+01],
+        [-1.9789e-05, -1.0830e+01],
+        [ 0.0000e+00, -2.6644e+01]], grad_fn=<SliceBackward0>)
+tensor([[-1.1921e-06, -1.3680e+01],
+        [-2.3842e-07, -1.5335e+01],
+        [ 0.0000e+00, -1.7905e+01],
+        [-2.3842e-07, -1.5115e+01],
+        [-1.4067e-05, -1.1174e+01]], grad_fn=<SliceBackward0>)
+tensor([[-4.8876e-06, -1.2235e+01],
+        [-1.2517e-05, -1.1288e+01],
+        [-7.5102e-06, -1.1793e+01],
+        [-4.2915e-06, -1.2366e+01],
+        [ 0.0000e+00, -2.7362e+01]], grad_fn=<SliceBackward0>)
+tensor([[-4.1723e-06, -1.2399e+01],
+        [-5.9605e-07, -1.4293e+01],
+        [ 0.0000e+00, -1.9531e+01],
+        [-3.0994e-06, -1.2686e+01],
+        [ 0.0000e+00, -3.4168e+01]], grad_fn=<SliceBackward0>)
+tensor([[-5.9605e-07, -1.4360e+01],
+        [-7.1526e-07, -1.4159e+01],
+        [-2.7418e-06, -1.2816e+01],
+        [-2.7418e-06, -1.2793e+01],
+        [-4.4108e-06, -1.2322e+01]], grad_fn=<SliceBackward0>)
+Episode: 5 | Reward: 9.0 | Polciy Loss: -25.056270599365234 | Steps: 48
+tensor([[-1.9074e-06, -1.3167e+01],
+        [ 0.0000e+00, -1.8421e+01],
+        [ 0.0000e+00, -2.4073e+01],
+        [-2.7418e-06, -1.2813e+01],
+        [-1.5497e-06, -1.3394e+01]], grad_fn=<SliceBackward0>)
+tensor([[-1.4305e-06, -1.3420e+01],
+        [ 0.0000e+00, -2.8843e+01],
+        [-4.7684e-07, -1.4510e+01],
+        [-2.3842e-07, -1.5514e+01],
+        [-9.5367e-07, -1.3823e+01]], grad_fn=<SliceBackward0>)
+tensor([[-4.7684e-07, -1.4631e+01],
+        [-4.7684e-07, -1.4596e+01],
+        [-4.7684e-07, -1.4464e+01],
+        [ 0.0000e+00, -1.6653e+01],
+        [ 0.0000e+00, -3.5289e+01]], grad_fn=<SliceBackward0>)
+tensor([[ 0.0000e+00, -1.8035e+01],
+        [ 0.0000e+00, -1.7278e+01],
+        [-2.3842e-07, -1.5099e+01],
+        [-2.3842e-07, -1.5478e+01],
+        [ 0.0000e+00, -4.5996e+01]], grad_fn=<SliceBackward0>)
+tensor([[ 0.0000e+00, -3.2192e+01],
+        [ 0.0000e+00, -3.7248e+01],
+        [ 0.0000e+00, -1.8350e+01],
+        [ 0.0000e+00, -3.3029e+01],
+        [-1.1921e-07, -1.5573e+01]], grad_fn=<SliceBackward0>)
+tensor([[ 0.0000e+00, -2.0885e+01],
+        [ 0.0000e+00, -1.7926e+01],
+        [ 0.0000e+00, -2.8625e+01],
+        [-1.1921e-07, -1.6252e+01],
+        [ 0.0000e+00, -1.9537e+01]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -27.7623],
+        [  0.0000, -27.6375],
+        [  0.0000, -28.7904],
+        [  0.0000, -16.6841],
+        [  0.0000, -16.6519]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -16.8608],
+        [  0.0000, -32.5858],
+        [  0.0000, -19.4051],
+        [  0.0000, -21.2075],
+        [  0.0000, -17.5471]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -17.9730],
+        [  0.0000, -18.1184],
+        [  0.0000, -25.3053],
+        [  0.0000, -28.6053],
+        [  0.0000, -22.4125]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -22.2829],
+        [  0.0000, -18.9722],
+        [  0.0000, -19.2027],
+        [  0.0000, -19.4083],
+        [  0.0000, -18.6248]], grad_fn=<SliceBackward0>)
+Episode: 6 | Reward: 10.0 | Polciy Loss: -37.3834114074707 | Steps: 58
+tensor([[  0.0000, -27.0437],
+        [  0.0000, -23.1334],
+        [  0.0000, -19.3981],
+        [  0.0000, -43.2291],
+        [  0.0000, -18.9167]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -22.9020],
+        [  0.0000, -20.5827],
+        [  0.0000, -20.3329],
+        [  0.0000, -22.5213],
+        [  0.0000, -20.2296]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -21.3852],
+        [  0.0000, -20.2467],
+        [  0.0000, -21.7691],
+        [  0.0000, -20.3249],
+        [  0.0000, -20.6168]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -22.5615],
+        [  0.0000, -23.0714],
+        [  0.0000, -20.9020],
+        [  0.0000, -23.3345],
+        [  0.0000, -21.7979]], grad_fn=<SliceBackward0>)
+tensor([[  0.0000, -22.9297],
+        [  0.0000, -27.8379],
+        [  0.0000, -37.7359],
+        [  0.0000, -28.8059],
+        [  0.0000, -22.0026]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 7 | Reward: 9.0 | Polciy Loss: nan | Steps: 67
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 8 | Reward: 9.0 | Polciy Loss: nan | Steps: 76
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 9 | Reward: 10.0 | Polciy Loss: nan | Steps: 86
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 10 | Reward: 10.0 | Polciy Loss: nan | Steps: 96
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 11 | Reward: 10.0 | Polciy Loss: nan | Steps: 106
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 12 | Reward: 8.0 | Polciy Loss: nan | Steps: 114
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 13 | Reward: 8.0 | Polciy Loss: nan | Steps: 122
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 14 | Reward: 10.0 | Polciy Loss: nan | Steps: 132
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 15 | Reward: 10.0 | Polciy Loss: nan | Steps: 142
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 16 | Reward: 9.0 | Polciy Loss: nan | Steps: 151
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 17 | Reward: 10.0 | Polciy Loss: nan | Steps: 161
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 18 | Reward: 10.0 | Polciy Loss: nan | Steps: 171
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 19 | Reward: 10.0 | Polciy Loss: nan | Steps: 181
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 20 | Reward: 10.0 | Polciy Loss: nan | Steps: 191
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 21 | Reward: 10.0 | Polciy Loss: nan | Steps: 201
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan]], grad_fn=<SliceBackward0>)
+Episode: 22 | Reward: 10.0 | Polciy Loss: nan | Steps: 211
+tensor([[nan, nan],
+        [nan, nan],
+        [nan, nan],
+        [nan, nan],

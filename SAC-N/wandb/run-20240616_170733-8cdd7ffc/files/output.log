@@ -1,0 +1,30 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode: 1 | Reward: 9.0 | Polciy Loss: -1.053769588470459 | Steps: 9
+Episode: 2 | Reward: 11.0 | Polciy Loss: -3.1839640140533447 | Steps: 20
+Episode: 3 | Reward: 10.0 | Polciy Loss: -8.83150577545166 | Steps: 30
+Episode: 4 | Reward: 9.0 | Polciy Loss: -17.625349044799805 | Steps: 39
+Episode: 5 | Reward: 9.0 | Polciy Loss: -25.056270599365234 | Steps: 48
+Episode: 6 | Reward: 10.0 | Polciy Loss: -37.3834114074707 | Steps: 58
+Episode: 7 | Reward: 9.0 | Polciy Loss: nan | Steps: 67
+Episode: 8 | Reward: 9.0 | Polciy Loss: nan | Steps: 76
+Episode: 9 | Reward: 10.0 | Polciy Loss: nan | Steps: 86
+Episode: 10 | Reward: 10.0 | Polciy Loss: nan | Steps: 96
+Episode: 11 | Reward: 10.0 | Polciy Loss: nan | Steps: 106
+Episode: 12 | Reward: 8.0 | Polciy Loss: nan | Steps: 114
+Episode: 13 | Reward: 8.0 | Polciy Loss: nan | Steps: 122
+Episode: 14 | Reward: 10.0 | Polciy Loss: nan | Steps: 132
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 195, in learn
+    actor_loss.backward()
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/wandb/wandb_torch.py", line 271, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt

@@ -1,0 +1,722 @@
+riverswimEnv-v0 is already registered.
+No samples found at /Users/abhilashchenreddy/PycharmProjects/CQL_AC//offline_data/risk_averse/riverswim/3/samples_train.npz
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.n to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.n` for environment variables or `env.get_wrapper_attr('n')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.m to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.m` for environment variables or `env.get_wrapper_attr('m')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.states to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.states` for environment variables or `env.get_wrapper_attr('states')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.actions to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.actions` for environment variables or `env.get_wrapper_attr('actions')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.P to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.P` for environment variables or `env.get_wrapper_attr('P')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.R to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.R` for environment variables or `env.get_wrapper_attr('R')` that will search the reminding wrappers.
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:189: UserWarning: [33mWARN: The result returned by `env.reset()` was not a tuple of the form `(obs, info)`, where `obs` is a observation and `info` is a dictionary containing additional information. Actual type: `<class 'numpy.int64'>`
+  logger.warn(
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py:232: UserWarning: [33mWARN: Expects `truncated` signal to be a boolean, actual type: <class 'dict'>
+  logger.warn(
+Samples saved in /Users/abhilashchenreddy/PycharmProjects/CQL_AC//offline_data/risk_averse/riverswim/3/samples_train.npz.
+No samples found at /Users/abhilashchenreddy/PycharmProjects/CQL_AC//offline_data/risk_averse/riverswim/3/samples_test.npz
+Samples saved in /Users/abhilashchenreddy/PycharmProjects/CQL_AC//offline_data/risk_averse/riverswim/3/samples_test.npz.
+asymptotic var robust iter 1
+asymptotic var robust iter 2
+asymptotic var robust iter 3
+asymptotic var robust iter 4
+asymptotic var robust iter 5
+asymptotic var robust iter 6
+asymptotic var robust iter 7
+asymptotic var robust iter 8
+asymptotic var robust iter 9
+asymptotic var robust iter 10
+asymptotic var robust iter 11
+asymptotic var robust iter 12
+asymptotic var robust iter 13
+asymptotic var robust iter 14
+asymptotic var robust iter 15
+asymptotic var robust iter 16
+asymptotic var robust iter 17
+asymptotic var robust iter 18
+asymptotic var robust iter 19
+asymptotic var robust iter 20
+asymptotic var robust iter 21
+asymptotic var robust iter 22
+asymptotic var robust iter 23
+asymptotic var robust iter 24
+asymptotic var robust iter 25
+asymptotic var robust iter 26
+asymptotic var robust iter 27
+asymptotic var robust iter 28
+asymptotic var robust iter 29
+asymptotic var robust iter 30
+asymptotic var robust iter 31
+asymptotic var robust iter 32
+asymptotic var robust iter 33
+asymptotic var robust iter 34
+asymptotic var robust iter 35
+asymptotic var robust iter 36
+asymptotic var robust iter 37
+asymptotic var robust iter 38
+asymptotic var robust iter 39
+asymptotic var robust iter 40
+asymptotic var robust iter 41
+asymptotic var robust iter 42
+asymptotic var robust iter 43
+asymptotic var robust iter 44
+asymptotic var robust returns***  3.1749118839275448
+var robust iter 1
+var robust iter 2
+var robust iter 3
+var robust iter 4
+var robust iter 5
+var robust iter 6
+var robust iter 7
+var robust iter 8
+var robust iter 9
+var robust iter 10
+var robust iter 11
+var robust iter 12
+var robust iter 13
+var robust iter 14
+var robust iter 15
+var robust iter 16
+var robust iter 17
+var robust iter 18
+var robust iter 19
+var robust iter 20
+var robust iter 21
+var robust iter 22
+var robust iter 23
+var robust iter 24
+var robust iter 25
+var robust iter 26
+var robust iter 27
+var robust iter 28
+var robust iter 29
+var robust iter 30
+var robust iter 31
+var robust iter 32
+var robust iter 33
+var robust iter 34
+var robust iter 35
+var robust iter 36
+var robust iter 37
+var robust iter 38
+var robust iter 39
+var robust iter 40
+var robust iter 41
+var robust iter 42
+var robust iter 43
+var robust iter 44
+var robust iter 45
+var robust iter 46
+var robust iter 47
+var robust returns***  5.492344264809493
+cvar robust iter 1
+cvar robust iter 2
+cvar robust iter 3
+cvar robust iter 4
+cvar robust iter 5
+cvar robust iter 6
+cvar robust iter 7
+cvar robust iter 8
+cvar robust iter 9
+cvar robust iter 10
+cvar robust iter 11
+cvar robust iter 12
+cvar robust iter 13
+cvar robust iter 14
+cvar robust iter 15
+cvar robust iter 16
+cvar robust iter 17
+cvar robust iter 18
+cvar robust iter 19
+cvar robust iter 20
+cvar robust iter 21
+cvar robust iter 22
+cvar robust iter 23
+cvar robust iter 24
+cvar robust iter 25
+cvar robust iter 26
+cvar robust iter 27
+cvar robust iter 28
+cvar robust iter 29
+cvar robust iter 30
+cvar robust iter 31
+cvar robust iter 32
+cvar robust iter 33
+cvar robust iter 34
+cvar robust iter 35
+cvar robust returns***  5.487702090278075
+cvar robust iter 1
+cvar robust iter 2
+cvar robust iter 3
+cvar robust iter 4
+cvar robust iter 5
+cvar robust iter 6
+cvar robust iter 7
+cvar robust iter 8
+cvar robust iter 9
+cvar robust iter 10
+cvar robust iter 11
+cvar robust iter 12
+cvar robust iter 13
+cvar robust iter 14
+cvar robust iter 15
+cvar robust iter 16
+cvar robust iter 17
+cvar robust iter 18
+cvar robust iter 19
+cvar robust iter 20
+cvar robust iter 21
+cvar robust iter 22
+cvar robust iter 23
+cvar robust iter 24
+cvar robust iter 25
+cvar robust iter 26
+cvar robust iter 27
+cvar robust iter 28
+cvar robust iter 29
+cvar robust iter 30
+cvar robust iter 31
+cvar robust iter 32
+cvar robust iter 33
+cvar robust iter 34
+cvar robust iter 35
+cvar robust iter 36
+cvar robust iter 37
+cvar robust iter 38
+cvar robust iter 39
+cvar robust iter 40
+cvar robust iter 41
+cvar robust iter 42
+cvar robust iter 43
+cvar robust iter 44
+cvar robust iter 45
+cvar robust iter 46
+cvar robust iter 47
+cvar robust iter 48
+cvar robust iter 49
+cvar robust returns***  11.775818004701122
+cvar robust iter 1
+cvar robust iter 2
+cvar robust iter 3
+cvar robust iter 4
+cvar robust iter 5
+cvar robust iter 6
+cvar robust iter 7
+cvar robust iter 8
+cvar robust iter 9
+cvar robust iter 10
+cvar robust iter 11
+cvar robust iter 12
+cvar robust iter 13
+cvar robust iter 14
+cvar robust iter 15
+cvar robust iter 16
+cvar robust iter 17
+cvar robust iter 18
+cvar robust iter 19
+cvar robust iter 20
+cvar robust iter 21
+cvar robust iter 22
+cvar robust iter 23
+cvar robust iter 24
+cvar robust iter 25
+cvar robust iter 26
+cvar robust iter 27
+cvar robust iter 28
+cvar robust iter 29
+cvar robust iter 30
+cvar robust iter 31
+cvar robust iter 32
+cvar robust iter 33
+cvar robust iter 34
+cvar robust iter 35
+cvar robust iter 36
+cvar robust iter 37
+cvar robust iter 38
+cvar robust iter 39
+cvar robust iter 40
+cvar robust iter 41
+cvar robust iter 42
+cvar robust iter 43
+cvar robust iter 44
+cvar robust iter 45
+cvar robust iter 46
+cvar robust iter 47
+cvar robust returns***  5.491278687719285
+robust value iter 0
+old val - value 4.0295584771753665
+robust value iter 1
+old val - value 0.3985258410837269
+robust value iter 2
+old val - value 0.3524409661404564
+robust value iter 3
+old val - value 0.31689986958383765
+robust value iter 4
+old val - value 0.2851839264628482
+robust value iter 5
+old val - value 0.25666443485004153
+robust value iter 6
+old val - value 0.23099793949177094
+robust value iter 7
+old val - value 0.20789814499739068
+robust value iter 8
+old val - value 0.18710833047591624
+robust value iter 9
+old val - value 0.16839749742755883
+robust value iter 10
+old val - value 0.15155774768479624
+robust value iter 11
+old val - value 0.13640197291631573
+robust value iter 12
+old val - value 0.12276177562468416
+robust value iter 13
+old val - value 0.11048559806221592
+robust value iter 14
+old val - value 0.09943703825599437
+robust value iter 15
+old val - value 0.08949333443039542
+robust value iter 16
+old val - value 0.0805440009873557
+robust value iter 17
+old val - value 0.07248960088862066
+robust value iter 18
+old val - value 0.06524064079975878
+robust value iter 19
+old val - value 0.05871657671978259
+robust value iter 20
+old val - value 0.05284491904780442
+robust value iter 21
+old val - value 0.04756042714302389
+robust value iter 22
+old val - value 0.04280438442872203
+robust value iter 23
+old val - value 0.038523945985849295
+robust value iter 24
+old val - value 0.03467155138726419
+robust value iter 25
+old val - value 0.031204396248538657
+robust value iter 26
+old val - value 0.02808395662368568
+robust value iter 27
+old val - value 0.025275560961316224
+robust value iter 28
+old val - value 0.022748004865185578
+robust value iter 29
+old val - value 0.020473204378666843
+robust value iter 30
+old val - value 0.018425883940800247
+robust value iter 31
+old val - value 0.01658329554672111
+robust value iter 32
+old val - value 0.014924965992047845
+robust value iter 33
+old val - value 0.013432469392843593
+robust value iter 34
+old val - value 0.012089222453559145
+robust value iter 35
+old val - value 0.010880300208204297
+robust value iter 36
+old val - value 0.009792270187382712
+robust value iter 37
+old val - value 0.008813043168645507
+robust value iter 38
+old val - value 0.007931738851781667
+robust value iter 39
+old val - value 0.007138564966602701
+robust value iter 40
+old val - value 0.006424708469943141
+robust value iter 41
+old val - value 0.005782237622948827
+robust value iter 42
+old val - value 0.005204013860653944
+robust value iter 43
+old val - value 0.0046836124745892604
+robust value iter 44
+old val - value 0.004215251227130068
+robust value iter 45
+old val - value 0.0037937261044165282
+robust value iter 46
+old val - value 0.0034143534939756748
+robust value iter 47
+old val - value 0.0030729181445785514
+robust value iter 48
+old val - value 0.002765626330120341
+robust value iter 49
+old val - value 0.0024890636971095503
+robust value iter 50
+old val - value 0.002240157327397796
+robust value iter 51
+old val - value 0.0020161415946589045
+robust value iter 52
+old val - value 0.0018145274351928364
+robust value iter 53
+old val - value 0.0016330746916732863
+robust value iter 54
+old val - value 0.0014697672225061353
+robust value iter 55
+old val - value 0.0013227905002555218
+robust value iter 56
+old val - value 0.0011905114502299696
+robust value iter 57
+old val - value 0.0010714603052068838
+robust value iter 58
+old val - value 0.000964314274686906
+var robust returns  4.8706870754401015
+robust value iter 0
+old val - value 3.4473022396340087
+robust value iter 1
+old val - value 0.4333983434664357
+robust value iter 2
+old val - value 0.35905926885193007
+robust value iter 3
+old val - value 0.3215743282982908
+robust value iter 4
+old val - value 0.2893461993663684
+robust value iter 5
+old val - value 0.2604088203715138
+robust value iter 6
+old val - value 0.23436789641552336
+robust value iter 7
+old val - value 0.2109311057980756
+robust value iter 8
+old val - value 0.18983799517499822
+robust value iter 9
+old val - value 0.17085419565650595
+robust value iter 10
+old val - value 0.15376877609084216
+robust value iter 11
+old val - value 0.13839189848175826
+robust value iter 12
+old val - value 0.12455270863358248
+robust value iter 13
+old val - value 0.1120974377702244
+robust value iter 14
+old val - value 0.10088769399320174
+robust value iter 15
+old val - value 0.09079892459388228
+robust value iter 16
+old val - value 0.08171903213449383
+robust value iter 17
+old val - value 0.07354712892104454
+robust value iter 18
+old val - value 0.06619241602894022
+robust value iter 19
+old val - value 0.05957317442604548
+robust value iter 20
+old val - value 0.05361585698344129
+robust value iter 21
+old val - value 0.048254271285097516
+robust value iter 22
+old val - value 0.043428844156587765
+robust value iter 23
+old val - value 0.03908595974092943
+robust value iter 24
+old val - value 0.03517736376683622
+robust value iter 25
+old val - value 0.03165962739015349
+robust value iter 26
+old val - value 0.028493664651137784
+robust value iter 27
+old val - value 0.025644298186024095
+robust value iter 28
+old val - value 0.023079868367422485
+robust value iter 29
+old val - value 0.020771881530680325
+robust value iter 30
+old val - value 0.018694693377612204
+robust value iter 31
+old val - value 0.01682522403985054
+robust value iter 32
+old val - value 0.015142701635866729
+robust value iter 33
+old val - value 0.013628431472279878
+robust value iter 34
+old val - value 0.01226558832505198
+robust value iter 35
+old val - value 0.011039029492547314
+robust value iter 36
+old val - value 0.009935126543291872
+robust value iter 37
+old val - value 0.008941613888962863
+robust value iter 38
+old val - value 0.00804745250006711
+robust value iter 39
+old val - value 0.007242707250060931
+robust value iter 40
+old val - value 0.006518436525055016
+robust value iter 41
+old val - value 0.005866592872549425
+robust value iter 42
+old val - value 0.005279933585294216
+robust value iter 43
+old val - value 0.004751940226764617
+robust value iter 44
+old val - value 0.004276746204088688
+robust value iter 45
+old val - value 0.003849071583680974
+robust value iter 46
+old val - value 0.0034641644253126103
+robust value iter 47
+old val - value 0.003117747982781971
+robust value iter 48
+old val - value 0.002805973184503152
+robust value iter 49
+old val - value 0.002525375866053281
+robust value iter 50
+old val - value 0.0022728382794472424
+robust value iter 51
+old val - value 0.0020455544515032287
+robust value iter 52
+old val - value 0.001840999006352817
+robust value iter 53
+old val - value 0.0016568991057175353
+robust value iter 54
+old val - value 0.0014912091951462259
+robust value iter 55
+old val - value 0.0013420882756314256
+robust value iter 56
+old val - value 0.0012078794480689936
+robust value iter 57
+old val - value 0.0010870915032619166
+robust value iter 58
+old val - value 0.0009783823529359026
+var robust returns  4.946389659225883
+robust value iter 0
+old val - value 3.2080666205945105
+robust value iter 1
+old val - value 0.31921088708009115
+robust value iter 2
+old val - value 0.20871425700959922
+robust value iter 3
+old val - value 0.1800381970407574
+robust value iter 4
+old val - value 0.16163072507047005
+robust value iter 5
+old val - value 0.14516319637571362
+robust value iter 6
+old val - value 0.13062677417319102
+robust value iter 7
+old val - value 0.11754950899253225
+robust value iter 8
+old val - value 0.10579358135178607
+robust value iter 9
+old val - value 0.09521352351615686
+robust value iter 10
+old val - value 0.08569212520519898
+robust value iter 11
+old val - value 0.07712287981687282
+robust value iter 12
+old val - value 0.0694105896835171
+robust value iter 13
+old val - value 0.06246952917554793
+robust value iter 14
+old val - value 0.05622257615710424
+robust value iter 15
+old val - value 0.050600318469197436
+robust value iter 16
+old val - value 0.04554028661754117
+robust value iter 17
+old val - value 0.0409862579523983
+robust value iter 18
+old val - value 0.0368876321569358
+robust value iter 19
+old val - value 0.033198868941084037
+robust value iter 20
+old val - value 0.029878982046965152
+robust value iter 21
+old val - value 0.026891083842261132
+robust value iter 22
+old val - value 0.024201975458034486
+robust value iter 23
+old val - value 0.021781777912231348
+robust value iter 24
+old val - value 0.01960360012100759
+robust value iter 25
+old val - value 0.017643240108907055
+robust value iter 26
+old val - value 0.015878916098016393
+robust value iter 27
+old val - value 0.014291024488215065
+robust value iter 28
+old val - value 0.012861922039393736
+robust value iter 29
+old val - value 0.011575729835454407
+robust value iter 30
+old val - value 0.010418156851908833
+robust value iter 31
+old val - value 0.009376341166718039
+robust value iter 32
+old val - value 0.008438707050046457
+robust value iter 33
+old val - value 0.007594836345042211
+robust value iter 34
+old val - value 0.006835352710537368
+robust value iter 35
+old val - value 0.0061518174394836755
+robust value iter 36
+old val - value 0.00553663569553553
+robust value iter 37
+old val - value 0.004982972125982421
+robust value iter 38
+old val - value 0.004484674913384001
+robust value iter 39
+old val - value 0.004036207422045912
+robust value iter 40
+old val - value 0.0036325866798421202
+robust value iter 41
+old val - value 0.0032693280118571977
+robust value iter 42
+old val - value 0.0029423952106713003
+robust value iter 43
+old val - value 0.0026481556896045255
+robust value iter 44
+old val - value 0.0023833401206445615
+robust value iter 45
+old val - value 0.0021450061085799277
+robust value iter 46
+old val - value 0.0019305054977216685
+robust value iter 47
+old val - value 0.0017374549479498569
+robust value iter 48
+old val - value 0.0015637094531557594
+robust value iter 49
+old val - value 0.0014073385078390288
+robust value iter 50
+old val - value 0.0012666046570553036
+robust value iter 51
+old val - value 0.0011399441913502173
+robust value iter 52
+old val - value 0.0010259497722149291
+robust value iter 53
+old val - value 0.0009233547949931697
+var robust returns  2.9239035030322253
+robust value iter 0
+old val - value 3.033026623401717
+robust value iter 1
+old val - value 0.3322892346864057
+robust value iter 2
+old val - value 0.19972855855067562
+robust value iter 3
+old val - value 0.17796897269212564
+robust value iter 4
+old val - value 0.15899929172348637
+robust value iter 5
+old val - value 0.14301223624357107
+robust value iter 6
+old val - value 0.12863708682941355
+robust value iter 7
+old val - value 0.11576653402512105
+robust value iter 8
+old val - value 0.1041841012203435
+robust value iter 9
+old val - value 0.09376515372091387
+robust value iter 10
+old val - value 0.08438818200345288
+robust value iter 11
+old val - value 0.07594932147450129
+robust value iter 12
+old val - value 0.06835435336948237
+robust value iter 13
+old val - value 0.06151891469685733
+robust value iter 14
+old val - value 0.055367020393542354
+robust value iter 15
+old val - value 0.049830318091332426
+robust value iter 16
+old val - value 0.04484728605889998
+robust value iter 17
+old val - value 0.04036255743229589
+robust value iter 18
+old val - value 0.036326301671469885
+robust value iter 19
+old val - value 0.03269367150269087
+robust value iter 20
+old val - value 0.029424304351034714
+robust value iter 21
+old val - value 0.02648187391580281
+robust value iter 22
+old val - value 0.02383368652411333
+robust value iter 23
+old val - value 0.021450317871691826
+robust value iter 24
+old val - value 0.01930528608451354
+robust value iter 25
+old val - value 0.017374757476062097
+robust value iter 26
+old val - value 0.01563728172845469
+robust value iter 27
+old val - value 0.014073553555610019
+robust value iter 28
+old val - value 0.012666198200049106
+robust value iter 29
+old val - value 0.01139957838004424
+robust value iter 30
+old val - value 0.010259620542040437
+robust value iter 31
+old val - value 0.009233658487835417
+robust value iter 32
+old val - value 0.008310292639052363
+robust value iter 33
+old val - value 0.007479263375147482
+robust value iter 34
+old val - value 0.00673133703763229
+robust value iter 35
+old val - value 0.006058203333869638
+robust value iter 36
+old val - value 0.0054523830004824525
+robust value iter 37
+old val - value 0.004907144700434074
+robust value iter 38
+old val - value 0.004416430230391288
+robust value iter 39
+old val - value 0.003974787207351671
+robust value iter 40
+old val - value 0.003577308486616637
+robust value iter 41
+old val - value 0.0032195776379548846
+robust value iter 42
+old val - value 0.002897619874159485
+robust value iter 43
+old val - value 0.0026078578867436697
+robust value iter 44
+old val - value 0.0023470720980700577
+robust value iter 45
+old val - value 0.0021123648882621637
+robust value iter 46
+old val - value 0.001901128399436569
+robust value iter 47
+old val - value 0.0017110155594934895
+robust value iter 48
+old val - value 0.0015399140035441405
+robust value iter 49
+old val - value 0.0013859226031889271
+robust value iter 50
+old val - value 0.0012473303428706117
+robust value iter 51
+old val - value 0.0011225973085835506
+robust value iter 52
+old val - value 0.0010103375777252843
+robust value iter 53
+old val - value 0.0009093038199523562
+var robust returns  2.9131109226317204
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[x86] - Darwin 22.6.0 22G830)
+CPU model: Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 40 rows, 20 columns and 800 nonzeros
+Model fingerprint: 0xdbd255fd
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [5e-02, 5e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e+00, 9e+01]
+Presolve time: 0.00s
+Presolved: 40 rows, 20 columns, 800 nonzeros
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+      22    8.9550482e+01   0.000000e+00   0.000000e+00      0s
+Solved in 22 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.955048160e+01
+Maximized value: 89.5504816040829

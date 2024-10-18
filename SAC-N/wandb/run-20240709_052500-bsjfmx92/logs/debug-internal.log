@@ -1,0 +1,9 @@
+2024-07-09 05:25:00,728 INFO    StreamThr :79068 [internal.py:wandb_internal():85] W&B internal server running at pid: 79068, started at: 2024-07-09 05:25:00.726896
+2024-07-09 05:25:00,730 DEBUG   HandlerThread:79068 [handler.py:handle_request():158] handle_request: status
+2024-07-09 05:25:00,735 INFO    WriterThread:79068 [datastore.py:open_for_write():87] open: /Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/wandb/run-20240709_052500-bsjfmx92/run-bsjfmx92.wandb
+2024-07-09 05:25:00,735 DEBUG   SenderThread:79068 [sender.py:send():379] send: header
+2024-07-09 05:25:00,781 DEBUG   SenderThread:79068 [sender.py:send():379] send: run
+2024-07-09 05:25:05,797 DEBUG   HandlerThread:79068 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-09 05:25:10,814 DEBUG   HandlerThread:79068 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-09 05:25:15,823 DEBUG   HandlerThread:79068 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-09 05:25:20,841 DEBUG   HandlerThread:79068 [handler.py:handle_request():158] handle_request: keepalive

@@ -1,0 +1,66 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode: 1 | Reward: 26.0 | Polciy Loss: -3.6507349014282227 | Steps: 26
+Episode: 2 | Reward: 21.0 | Polciy Loss: -3.1845204830169678 | Steps: 47
+Episode: 3 | Reward: 14.0 | Polciy Loss: -3.425569772720337 | Steps: 61
+Episode: 4 | Reward: 13.0 | Polciy Loss: -3.9203665256500244 | Steps: 74
+Episode: 5 | Reward: 9.0 | Polciy Loss: -3.958530902862549 | Steps: 83
+Episode: 6 | Reward: 10.0 | Polciy Loss: -4.308557987213135 | Steps: 93
+Episode: 7 | Reward: 9.0 | Polciy Loss: -4.562540531158447 | Steps: 102
+Episode: 8 | Reward: 9.0 | Polciy Loss: -4.801253795623779 | Steps: 111
+Episode: 9 | Reward: 10.0 | Polciy Loss: -5.272520542144775 | Steps: 121
+Episode: 10 | Reward: 19.0 | Polciy Loss: -5.885781288146973 | Steps: 140
+Episode: 11 | Reward: 16.0 | Polciy Loss: -6.6962890625 | Steps: 156
+Episode: 12 | Reward: 8.0 | Polciy Loss: -7.055517673492432 | Steps: 164
+Episode: 13 | Reward: 12.0 | Polciy Loss: -7.61070442199707 | Steps: 176
+Episode: 14 | Reward: 13.0 | Polciy Loss: -8.306066513061523 | Steps: 189
+Episode: 15 | Reward: 10.0 | Polciy Loss: -9.137656211853027 | Steps: 199
+Episode: 16 | Reward: 9.0 | Polciy Loss: -10.129812240600586 | Steps: 208
+Episode: 17 | Reward: 10.0 | Polciy Loss: -10.386302947998047 | Steps: 218
+Episode: 18 | Reward: 10.0 | Polciy Loss: -10.858237266540527 | Steps: 228
+Episode: 19 | Reward: 10.0 | Polciy Loss: -11.891914367675781 | Steps: 238
+Episode: 20 | Reward: 10.0 | Polciy Loss: -13.34889030456543 | Steps: 248
+Episode: 21 | Reward: 10.0 | Polciy Loss: -13.604815483093262 | Steps: 258
+Episode: 22 | Reward: 10.0 | Polciy Loss: -14.4218168258667 | Steps: 268
+Episode: 23 | Reward: 10.0 | Polciy Loss: -15.941853523254395 | Steps: 278
+Episode: 24 | Reward: 9.0 | Polciy Loss: -17.096181869506836 | Steps: 287
+Episode: 25 | Reward: 9.0 | Polciy Loss: -18.110801696777344 | Steps: 296
+Episode: 26 | Reward: 10.0 | Polciy Loss: -18.798236846923828 | Steps: 306
+Episode: 27 | Reward: 9.0 | Polciy Loss: -20.67284393310547 | Steps: 315
+Episode: 28 | Reward: 11.0 | Polciy Loss: -22.591957092285156 | Steps: 326
+Episode: 29 | Reward: 9.0 | Polciy Loss: -23.305633544921875 | Steps: 335
+Episode: 30 | Reward: 8.0 | Polciy Loss: -25.4311580657959 | Steps: 343
+Episode: 31 | Reward: 10.0 | Polciy Loss: -27.26517105102539 | Steps: 353
+Episode: 32 | Reward: 9.0 | Polciy Loss: -29.420652389526367 | Steps: 362
+Episode: 33 | Reward: 11.0 | Polciy Loss: -30.23405647277832 | Steps: 373
+Episode: 34 | Reward: 8.0 | Polciy Loss: -32.13764572143555 | Steps: 381
+Episode: 35 | Reward: 9.0 | Polciy Loss: -34.77777862548828 | Steps: 390
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 70, in train
+    alpha_loss, critic_loss, policy_loss, actor_batch_entropy, current_alpha, q_policy_std, q_random_std = agent.learn(
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 207, in learn
+    critic_loss = self._critic_loss(state, action, reward, next_state, done)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 138, in _critic_loss
+    q_values = self.critic(state, action)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 168, in forward
+    q_values = self.critic(state_action).squeeze(-1)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/networks.py", line 132, in forward
+    return x @ self.weight + self.bias
+KeyboardInterrupt
+Episode: 36 | Reward: 25.0 | Polciy Loss: -40.67523193359375 | Steps: 415

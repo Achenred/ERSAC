@@ -1,0 +1,6 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/CQL-SAC-discrete/train.py", line 73, in train
+    buffer.add(state, action, reward, next_state, done)
+UnboundLocalError: local variable 'buffer' referenced before assignment

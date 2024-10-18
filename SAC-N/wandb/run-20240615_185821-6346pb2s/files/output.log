@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/train.py", line 47, in train
+    agent = SACN(state_size=env.observation_space.shape[0],
+  File "/Users/abhilashchenreddy/PycharmProjects/CQL_AC/SAC-N/agent.py", line 65, in __init__
+    self.target_critic = VectorizedCritic(state_size, action_size, hidden_size).to(device)
+TypeError: __init__() missing 1 required positional argument: 'num_critics'
