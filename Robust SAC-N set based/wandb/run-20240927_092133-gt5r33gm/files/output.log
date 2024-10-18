@@ -1,0 +1,59 @@
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/gym/utils/passive_env_checker.py:241: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/Users/abhilashchenreddy/PycharmProjects/CQL_AC/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py:535: UserWarning: Using a target size (torch.Size([1, 256, 1])) that is different to the input size (torch.Size([10, 256, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode: 1 | Reward: 20.0 | Polciy Loss: -2.309328556060791 | Steps: 20
+Episode: 2 | Reward: 22.0 | Polciy Loss: -2.327396869659424 | Steps: 42
+Episode: 3 | Reward: 9.0 | Polciy Loss: -2.665874481201172 | Steps: 51
+Episode: 4 | Reward: 16.0 | Polciy Loss: -2.593250274658203 | Steps: 67
+Episode: 5 | Reward: 21.0 | Polciy Loss: -2.765841484069824 | Steps: 88
+Episode: 6 | Reward: 9.0 | Polciy Loss: -2.809452533721924 | Steps: 97
+Episode: 7 | Reward: 9.0 | Polciy Loss: -2.9334070682525635 | Steps: 106
+Episode: 8 | Reward: 9.0 | Polciy Loss: -2.948838949203491 | Steps: 115
+Episode: 9 | Reward: 11.0 | Polciy Loss: -3.083204984664917 | Steps: 126
+Episode: 10 | Reward: 11.0 | Polciy Loss: -3.170395851135254 | Steps: 137
+Episode: 11 | Reward: 30.0 | Polciy Loss: -3.5367848873138428 | Steps: 167
+Episode: 12 | Reward: 9.0 | Polciy Loss: -3.6036949157714844 | Steps: 176
+Episode: 13 | Reward: 9.0 | Polciy Loss: -3.6423678398132324 | Steps: 185
+Episode: 14 | Reward: 10.0 | Polciy Loss: -3.7679378986358643 | Steps: 195
+Episode: 15 | Reward: 8.0 | Polciy Loss: -3.841731309890747 | Steps: 203
+Episode: 16 | Reward: 9.0 | Polciy Loss: -4.004060745239258 | Steps: 212
+Episode: 17 | Reward: 10.0 | Polciy Loss: -4.058233261108398 | Steps: 222
+Episode: 18 | Reward: 11.0 | Polciy Loss: -4.229057788848877 | Steps: 233
+Episode: 19 | Reward: 9.0 | Polciy Loss: -4.342987537384033 | Steps: 242
+Episode: 20 | Reward: 16.0 | Polciy Loss: -4.454176902770996 | Steps: 258
+Episode: 21 | Reward: 9.0 | Polciy Loss: -4.594060897827148 | Steps: 267
+Episode: 22 | Reward: 9.0 | Polciy Loss: -4.753324508666992 | Steps: 276
+Episode: 23 | Reward: 12.0 | Polciy Loss: -4.679059982299805 | Steps: 288
+Episode: 24 | Reward: 10.0 | Polciy Loss: -4.838432788848877 | Steps: 298
+Episode: 25 | Reward: 10.0 | Polciy Loss: -5.051766872406006 | Steps: 308
+Episode: 26 | Reward: 8.0 | Polciy Loss: -5.212075710296631 | Steps: 316
+Episode: 27 | Reward: 9.0 | Polciy Loss: -5.294535160064697 | Steps: 325
+Episode: 28 | Reward: 10.0 | Polciy Loss: -5.348446846008301 | Steps: 335
+Episode: 29 | Reward: 9.0 | Polciy Loss: -5.432407855987549 | Steps: 344
+Episode: 30 | Reward: 9.0 | Polciy Loss: -5.514191627502441 | Steps: 353
+Episode: 31 | Reward: 9.0 | Polciy Loss: -5.512338161468506 | Steps: 362
+Episode: 32 | Reward: 10.0 | Polciy Loss: -5.726592063903809 | Steps: 372
+Episode: 33 | Reward: 10.0 | Polciy Loss: -5.762968063354492 | Steps: 382
+Episode: 34 | Reward: 9.0 | Polciy Loss: -5.929060459136963 | Steps: 391
+Episode: 35 | Reward: 9.0 | Polciy Loss: -6.026342391967773 | Steps: 400
+Episode: 36 | Reward: 10.0 | Polciy Loss: -6.12763786315918 | Steps: 410
+Episode: 37 | Reward: 10.0 | Polciy Loss: -6.428481101989746 | Steps: 420
+Episode: 38 | Reward: 8.0 | Polciy Loss: -6.472787380218506 | Steps: 428
+Episode: 39 | Reward: 10.0 | Polciy Loss: -6.623075008392334 | Steps: 438
+Episode: 40 | Reward: 10.0 | Polciy Loss: -6.557331085205078 | Steps: 448
+Episode: 41 | Reward: 15.0 | Polciy Loss: -6.767083168029785 | Steps: 463
+Episode: 42 | Reward: 77.0 | Polciy Loss: -7.533935070037842 | Steps: 540
+Episode: 43 | Reward: 86.0 | Polciy Loss: -8.119750022888184 | Steps: 626
+Episode: 44 | Reward: 140.0 | Polciy Loss: -9.234399795532227 | Steps: 766
+Episode: 45 | Reward: 186.0 | Polciy Loss: -10.726987838745117 | Steps: 952
+Episode: 46 | Reward: 200.0 | Polciy Loss: -12.086380004882812 | Steps: 1152
+Episode: 47 | Reward: 180.0 | Polciy Loss: -13.436481475830078 | Steps: 1332
+Episode: 48 | Reward: 144.0 | Polciy Loss: -14.896402359008789 | Steps: 1476
+Episode: 49 | Reward: 193.0 | Polciy Loss: -15.815868377685547 | Steps: 1669
+Episode: 50 | Reward: 171.0 | Polciy Loss: -17.295974731445312 | Steps: 1840
+Episode: 51 | Reward: 138.0 | Polciy Loss: -18.044227600097656 | Steps: 1978
+Episode: 52 | Reward: 135.0 | Polciy Loss: -19.074464797973633 | Steps: 2113
+Episode: 53 | Reward: 150.0 | Polciy Loss: -19.53974151611328 | Steps: 2263

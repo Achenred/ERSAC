@@ -1,7 +1,8 @@
-
+import os
+os.environ["WANDB_MODE"] = "disabled"
 
 import gym
-import pybullet_envs
+import pybullet
 import numpy as np
 from collections import deque
 import torch
@@ -12,11 +13,13 @@ import glob
 from utils import save, collect_random
 import random
 from agent import CQLSAC
+import dill
 
 def get_config():
     parser = argparse.ArgumentParser(description='RL')
     parser.add_argument("--run_name", type=str, default="CQL-SAC-discrete", help="Run name, default: CQL-SAC")
     parser.add_argument("--env", type=str, default="CartPole-v0", help="Gym environment name, default: CartPole-v0")
+    parser.add_argument("--trainer_type", type=str, default="random", help="Gym environment name, default: risk-neutral")
     parser.add_argument("--episodes", type=int, default=200, help="Number of episodes, default: 200")
     parser.add_argument("--buffer_size", type=int, default=100_000, help="Maximal training dataset size, default: 100_000")
     parser.add_argument("--seed", type=int, default=1, help="Seed, default: 1")
@@ -49,11 +52,16 @@ def train(config):
                          device=device)
 
         wandb.watch(agent, log="gradients", log_freq=10)
+        if config.trainer_type == 'random':
+            buffer = ReplayBuffer(buffer_size=config.buffer_size, batch_size=config.batch_size, device=device)
+            collect_random(env=env, dataset=buffer, num_samples=10000)
 
-        buffer = ReplayBuffer(buffer_size=config.buffer_size, batch_size=config.batch_size, device=device)
-        
-        collect_random(env=env, dataset=buffer, num_samples=1000)
-        
+        else:
+            file_name = str("/Users/abhilashchenreddy/PycharmProjects/CQL_AC/datasets/")+str(config.env)+"-"+str(config.trainer_type)+".pkl"
+
+            with open(file_name, 'rb') as file:
+                buffer = dill.load(file)
+
         if config.log_video:
             env = gym.wrappers.Monitor(env, './video', video_callable=lambda x: x%10==0, force=True)
 

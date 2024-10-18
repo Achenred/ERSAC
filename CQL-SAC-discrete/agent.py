@@ -87,7 +87,9 @@ class CQLSAC(nn.Module):
 
         q1 = self.critic1(states)   
         q2 = self.critic2(states)
+
         min_Q = torch.min(q1,q2)
+
         actor_loss = (action_probs * (alpha.to(self.device) * log_pis - min_Q )).sum(1).mean()
         log_action_pi = torch.sum(log_pis * action_probs, dim=1)
         return actor_loss, log_action_pi
