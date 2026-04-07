@@ -1,0 +1,4 @@
+env, tau, episode, avg_return
+CartPole-v0, 0.9, 9, 188.40
+CartPole-v0, 0.9, 10, 194.60
+CartPole-v0, 0.9, 12, 199.80

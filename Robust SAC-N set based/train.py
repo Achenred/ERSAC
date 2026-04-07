@@ -21,7 +21,7 @@ def get_config():
     parser.add_argument("--env", type=str, default="CartPole-v0", help="Gym environment name, default: CartPole-v0")
     parser.add_argument("--trainer_type", type=str, default="risk-averse",help="Gym environment name, default: risk-neutral")
     parser.add_argument("--episodes", type=int, default=500, help="Number of episodes, default: 200")
-    parser.add_argument("--buffer_size", type=int, default=100_000, help="Maximal training dataset size, default: 100_000")
+    parser.add_argument("--buffer_size", type=int, default=10_000, help="Maximal training dataset size, default: 100_000")
     parser.add_argument("--seed", type=int, default=1, help="Seed, default: 1")
     parser.add_argument("--log_video", type=int, default=0, help="Log agent behaviour to wanbd when set to 1, default: 0")
     parser.add_argument("--save_every", type=int, default=100, help="Saves the network every x epochs, default: 25")
@@ -35,6 +35,7 @@ def train(config):
     random.seed(config.seed)
     torch.manual_seed(config.seed)
     env = gym.make(config.env)
+    buffer_size = config.buffer_size
     
     env.seed(config.seed)
     env.action_space.seed(config.seed)
@@ -55,7 +56,7 @@ def train(config):
 
         if config.trainer_type == 'random':
             buffer = ReplayBuffer(buffer_size=config.buffer_size, batch_size=config.batch_size, device=device)
-            collect_random(env=env, dataset=buffer, num_samples=1000)
+            collect_random(env=env, dataset=buffer, num_samples=buffer_size)
         else:
             file_name = str("/Users/abhilashchenreddy/PycharmProjects/CQL_AC/datasets/")+str(config.env)+"-"+str(config.trainer_type)+".pkl"
 

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+*.code-workspace
+.vscode/
+
+# Data & Results (large files)
+experiment_results/
+offline_data/
+datasets/
+results/
+**/wandb/
+**/trained_models/
+
+# Images & outputs
+*.png
+imgs/
+
+# Misc
+.DS_Store
+*.pdf
+samples.json
+riverswim_v2.csv
+
+# Jupyter
+.ipynb_checkpoints/

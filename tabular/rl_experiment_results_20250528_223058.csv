@@ -1,0 +1,2 @@
+tau,data_size,naive_mean,naive_std,box_mean,box_std,ch_mean,ch_std,ellipsoid_mean,ellipsoid_std,ellipsoid_0.9_mean,ellipsoid_0.9_std
+0.1,1000,-160.7238273533704,0.0,-155.04800122775367,0.0,-146.92326180693644,0.0,-159.6039163891889,0.0,-156.1536839625978,0.0

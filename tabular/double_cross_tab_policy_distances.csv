@@ -1,0 +1,181 @@
+method1,method2,tau_data_size,mean_distance,std_distance
+tabular_EDAC,tabular_robustEDAC,0.1_5,{0.1: 0.4529245316344518},{0.1: 0.25556894413057274}
+tabular_EDAC,true_model,0.1_5,{0.1: 1.4830978148305545},{0.1: 0.3692820431678246}
+tabular_EDAC,VI_model,0.1_5,{0.1: 1.6432568695034035},{0.1: 0.21065544832337552}
+tabular_EDAC,random_model,0.1_5,{0.1: 1.5529018354850836},{0.1: 0.19911557756325088}
+tabular_robustEDAC,tabular_EDAC,0.1_5,{},{}
+tabular_robustEDAC,true_model,0.1_5,{0.1: 1.4501724696752203},{0.1: 0.42723389580126636}
+tabular_robustEDAC,VI_model,0.1_5,{0.1: 1.6155606027749418},{0.1: 0.2860066498043938}
+tabular_robustEDAC,random_model,0.1_5,{0.1: 1.6001542175423098},{0.1: 0.21101468977972263}
+true_model,tabular_EDAC,0.1_5,{},{}
+true_model,tabular_robustEDAC,0.1_5,{},{}
+true_model,VI_model,0.1_5,{0.1: 1.4142135623730954},{0.1: 2.220446049250313e-16}
+true_model,random_model,0.1_5,{0.1: 2.23606797749979},{0.1: 0.0}
+VI_model,tabular_EDAC,0.1_5,{},{}
+VI_model,tabular_robustEDAC,0.1_5,{},{}
+VI_model,true_model,0.1_5,{},{}
+VI_model,random_model,0.1_5,{0.1: 2.23606797749979},{0.1: 0.0}
+random_model,tabular_EDAC,0.1_5,{},{}
+random_model,tabular_robustEDAC,0.1_5,{},{}
+random_model,true_model,0.1_5,{},{}
+random_model,VI_model,0.1_5,{},{}
+tabular_EDAC,tabular_robustEDAC,0.1_25,{0.1: 0.17377396358642533},{0.1: 0.0849563827419743}
+tabular_EDAC,true_model,0.1_25,{0.1: 1.63391275135582},{0.1: 0.08497980449785919}
+tabular_EDAC,VI_model,0.1_25,{0.1: 1.7403104692065792},{0.1: 0.17375564777468555}
+tabular_EDAC,random_model,0.1_25,{0.1: 1.1389531566709974},{0.1: 0.12711693707811506}
+tabular_robustEDAC,tabular_EDAC,0.1_25,{},{}
+tabular_robustEDAC,true_model,0.1_25,{0.1: 1.6168069964915333},{0.1: 0.0922490548718746}
+tabular_robustEDAC,VI_model,0.1_25,{0.1: 1.7176079170913912},{0.1: 0.17275158970631302}
+tabular_robustEDAC,random_model,0.1_25,{0.1: 1.1397722659389666},{0.1: 0.1506518295749978}
+true_model,tabular_EDAC,0.1_25,{},{}
+true_model,tabular_robustEDAC,0.1_25,{},{}
+true_model,VI_model,0.1_25,{0.1: 1.4142135623730954},{0.1: 2.220446049250313e-16}
+true_model,random_model,0.1_25,{0.1: 2.23606797749979},{0.1: 0.0}
+VI_model,tabular_EDAC,0.1_25,{},{}
+VI_model,tabular_robustEDAC,0.1_25,{},{}
+VI_model,true_model,0.1_25,{},{}
+VI_model,random_model,0.1_25,{0.1: 2.23606797749979},{0.1: 0.0}
+random_model,tabular_EDAC,0.1_25,{},{}
+random_model,tabular_robustEDAC,0.1_25,{},{}
+random_model,true_model,0.1_25,{},{}
+random_model,VI_model,0.1_25,{},{}
+tabular_EDAC,tabular_robustEDAC,0.1_125,{0.1: 0.172330091808332},{0.1: 0.06803178857704113}
+tabular_EDAC,true_model,0.1_125,{0.1: 1.7152990081858472},{0.1: 0.028610531315852804}
+tabular_EDAC,VI_model,0.1_125,{0.1: 1.7161568442976407},{0.1: 0.04316901547918675}
+tabular_EDAC,random_model,0.1_125,{0.1: 0.914441720381881},{0.1: 0.08871629652734334}
+tabular_robustEDAC,tabular_EDAC,0.1_125,{},{}
+tabular_robustEDAC,true_model,0.1_125,{0.1: 1.7066968961571707},{0.1: 0.028372368816254684}
+tabular_robustEDAC,VI_model,0.1_125,{0.1: 1.7165142754778007},{0.1: 0.022854983205118994}
+tabular_robustEDAC,random_model,0.1_125,{0.1: 0.9227603641458325},{0.1: 0.06788972906361426}
+true_model,tabular_EDAC,0.1_125,{},{}
+true_model,tabular_robustEDAC,0.1_125,{},{}
+true_model,VI_model,0.1_125,{0.1: 1.4142135623730954},{0.1: 2.220446049250313e-16}
+true_model,random_model,0.1_125,{0.1: 2.23606797749979},{0.1: 0.0}
+VI_model,tabular_EDAC,0.1_125,{},{}
+VI_model,tabular_robustEDAC,0.1_125,{},{}
+VI_model,true_model,0.1_125,{},{}
+VI_model,random_model,0.1_125,{0.1: 2.23606797749979},{0.1: 0.0}
+random_model,tabular_EDAC,0.1_125,{},{}
+random_model,tabular_robustEDAC,0.1_125,{},{}
+random_model,true_model,0.1_125,{},{}
+random_model,VI_model,0.1_125,{},{}
+tabular_EDAC,tabular_robustEDAC,0.5_5,{0.5: 0.4203491650522399},{0.5: 0.3143388106492871}
+tabular_EDAC,true_model,0.5_5,{0.5: 2.0026145244783287},{0.5: 0.4461111947561762}
+tabular_EDAC,VI_model,0.5_5,{0.5: 2.0026145244783287},{0.5: 0.4461111947561762}
+tabular_EDAC,random_model,0.5_5,{0.5: 1.5849436315166916},{0.5: 0.13324572567507872}
+tabular_robustEDAC,tabular_EDAC,0.5_5,{},{}
+tabular_robustEDAC,true_model,0.5_5,{0.5: 2.1136761555215715},{0.5: 0.40084258562043285}
+tabular_robustEDAC,VI_model,0.5_5,{0.5: 2.1136761555215715},{0.5: 0.40084258562043285}
+tabular_robustEDAC,random_model,0.5_5,{0.5: 1.620019818394735},{0.5: 0.1275152752330005}
+true_model,tabular_EDAC,0.5_5,{},{}
+true_model,tabular_robustEDAC,0.5_5,{},{}
+true_model,VI_model,0.5_5,{0.5: 0.0},{0.5: 0.0}
+true_model,random_model,0.5_5,{0.5: 2.23606797749979},{0.5: 0.0}
+VI_model,tabular_EDAC,0.5_5,{},{}
+VI_model,tabular_robustEDAC,0.5_5,{},{}
+VI_model,true_model,0.5_5,{},{}
+VI_model,random_model,0.5_5,{0.5: 2.23606797749979},{0.5: 0.0}
+random_model,tabular_EDAC,0.5_5,{},{}
+random_model,tabular_robustEDAC,0.5_5,{},{}
+random_model,true_model,0.5_5,{},{}
+random_model,VI_model,0.5_5,{},{}
+tabular_EDAC,tabular_robustEDAC,0.5_25,{0.5: 0.18337036578438867},{0.5: 0.10128207203003622}
+tabular_EDAC,true_model,0.5_25,{0.5: 1.6105409697178543},{0.5: 0.07418720103354264}
+tabular_EDAC,VI_model,0.5_25,{0.5: 1.6105409697178543},{0.5: 0.07418720103354264}
+tabular_EDAC,random_model,0.5_25,{0.5: 1.2312433384926682},{0.5: 0.10886047374442506}
+tabular_robustEDAC,tabular_EDAC,0.5_25,{},{}
+tabular_robustEDAC,true_model,0.5_25,{0.5: 1.6118497547921984},{0.5: 0.04577337029910618}
+tabular_robustEDAC,VI_model,0.5_25,{0.5: 1.6118497547921984},{0.5: 0.04577337029910618}
+tabular_robustEDAC,random_model,0.5_25,{0.5: 1.2894468588148291},{0.5: 0.09951872490337006}
+true_model,tabular_EDAC,0.5_25,{},{}
+true_model,tabular_robustEDAC,0.5_25,{},{}
+true_model,VI_model,0.5_25,{0.5: 0.0},{0.5: 0.0}
+true_model,random_model,0.5_25,{0.5: 2.23606797749979},{0.5: 0.0}
+VI_model,tabular_EDAC,0.5_25,{},{}
+VI_model,tabular_robustEDAC,0.5_25,{},{}
+VI_model,true_model,0.5_25,{},{}
+VI_model,random_model,0.5_25,{0.5: 2.23606797749979},{0.5: 0.0}
+random_model,tabular_EDAC,0.5_25,{},{}
+random_model,tabular_robustEDAC,0.5_25,{},{}
+random_model,true_model,0.5_25,{},{}
+random_model,VI_model,0.5_25,{},{}
+tabular_EDAC,tabular_robustEDAC,0.5_125,{0.5: 0.17178844033787127},{0.5: 0.04411307385117653}
+tabular_EDAC,true_model,0.5_125,{0.5: 1.630190054503832},{0.5: 0.05675489956702088}
+tabular_EDAC,VI_model,0.5_125,{0.5: 1.630190054503832},{0.5: 0.05675489956702088}
+tabular_EDAC,random_model,0.5_125,{0.5: 1.0518439667389923},{0.5: 0.1082362664181159}
+tabular_robustEDAC,tabular_EDAC,0.5_125,{},{}
+tabular_robustEDAC,true_model,0.5_125,{0.5: 1.642680733952978},{0.5: 0.0532847615209879}
+tabular_robustEDAC,VI_model,0.5_125,{0.5: 1.642680733952978},{0.5: 0.0532847615209879}
+tabular_robustEDAC,random_model,0.5_125,{0.5: 1.0350786049402032},{0.5: 0.1006482465233148}
+true_model,tabular_EDAC,0.5_125,{},{}
+true_model,tabular_robustEDAC,0.5_125,{},{}
+true_model,VI_model,0.5_125,{0.5: 0.0},{0.5: 0.0}
+true_model,random_model,0.5_125,{0.5: 2.23606797749979},{0.5: 0.0}
+VI_model,tabular_EDAC,0.5_125,{},{}
+VI_model,tabular_robustEDAC,0.5_125,{},{}
+VI_model,true_model,0.5_125,{},{}
+VI_model,random_model,0.5_125,{0.5: 2.23606797749979},{0.5: 0.0}
+random_model,tabular_EDAC,0.5_125,{},{}
+random_model,tabular_robustEDAC,0.5_125,{},{}
+random_model,true_model,0.5_125,{},{}
+random_model,VI_model,0.5_125,{},{}
+tabular_EDAC,tabular_robustEDAC,0.9_5,{0.9: 0.6969097103381767},{0.9: 0.27342756577359506}
+tabular_EDAC,true_model,0.9_5,{0.9: 1.6363485847444508},{0.9: 0.4287735909631763}
+tabular_EDAC,VI_model,0.9_5,{0.9: 2.472996591643193},{0.9: 0.37090039567867156}
+tabular_EDAC,random_model,0.9_5,{0.9: 1.6217254540930228},{0.9: 0.14582451803158933}
+tabular_robustEDAC,tabular_EDAC,0.9_5,{},{}
+tabular_robustEDAC,true_model,0.9_5,{0.9: 1.7039546424510845},{0.9: 0.41842199637933836}
+tabular_robustEDAC,VI_model,0.9_5,{0.9: 2.513701221333979},{0.9: 0.357995046762063}
+tabular_robustEDAC,random_model,0.9_5,{0.9: 1.6938166234699683},{0.9: 0.13209675087654127}
+true_model,tabular_EDAC,0.9_5,{},{}
+true_model,tabular_robustEDAC,0.9_5,{},{}
+true_model,VI_model,0.9_5,{0.9: 2.8284271247461907},{0.9: 4.440892098500626e-16}
+true_model,random_model,0.9_5,{0.9: 2.23606797749979},{0.9: 0.0}
+VI_model,tabular_EDAC,0.9_5,{},{}
+VI_model,tabular_robustEDAC,0.9_5,{},{}
+VI_model,true_model,0.9_5,{},{}
+VI_model,random_model,0.9_5,{0.9: 2.23606797749979},{0.9: 0.0}
+random_model,tabular_EDAC,0.9_5,{},{}
+random_model,tabular_robustEDAC,0.9_5,{},{}
+random_model,true_model,0.9_5,{},{}
+random_model,VI_model,0.9_5,{},{}
+tabular_EDAC,tabular_robustEDAC,0.9_25,{0.9: 0.30037599207277343},{0.9: 0.19482296760370682}
+tabular_EDAC,true_model,0.9_25,{0.9: 1.240507723578434},{0.9: 0.1306227227993324}
+tabular_EDAC,VI_model,0.9_25,{0.9: 2.274799029316441},{0.9: 0.2120388446771976}
+tabular_EDAC,random_model,0.9_25,{0.9: 1.5332626897651016},{0.9: 0.13989546506513925}
+tabular_robustEDAC,tabular_EDAC,0.9_25,{},{}
+tabular_robustEDAC,true_model,0.9_25,{0.9: 1.3537993427174793},{0.9: 0.08425341273917551}
+tabular_robustEDAC,VI_model,0.9_25,{0.9: 2.264623073150296},{0.9: 0.24373622352180319}
+tabular_robustEDAC,random_model,0.9_25,{0.9: 1.5538858045269561},{0.9: 0.12155749649747365}
+true_model,tabular_EDAC,0.9_25,{},{}
+true_model,tabular_robustEDAC,0.9_25,{},{}
+true_model,VI_model,0.9_25,{0.9: 2.8284271247461907},{0.9: 4.440892098500626e-16}
+true_model,random_model,0.9_25,{0.9: 2.23606797749979},{0.9: 0.0}
+VI_model,tabular_EDAC,0.9_25,{},{}
+VI_model,tabular_robustEDAC,0.9_25,{},{}
+VI_model,true_model,0.9_25,{},{}
+VI_model,random_model,0.9_25,{0.9: 2.23606797749979},{0.9: 0.0}
+random_model,tabular_EDAC,0.9_25,{},{}
+random_model,tabular_robustEDAC,0.9_25,{},{}
+random_model,true_model,0.9_25,{},{}
+random_model,VI_model,0.9_25,{},{}
+tabular_EDAC,tabular_robustEDAC,0.9_125,{0.9: 0.21455626771566522},{0.9: 0.059130075471108656}
+tabular_EDAC,true_model,0.9_125,{0.9: 1.2690668218169288},{0.9: 0.1143088468968733}
+tabular_EDAC,VI_model,0.9_125,{0.9: 2.050749452887341},{0.9: 0.15611663615058047}
+tabular_EDAC,random_model,0.9_125,{0.9: 1.3071456163238995},{0.9: 0.1642594263820039}
+tabular_robustEDAC,tabular_EDAC,0.9_125,{},{}
+tabular_robustEDAC,true_model,0.9_125,{0.9: 1.3125759069065501},{0.9: 0.13224972990890277}
+tabular_robustEDAC,VI_model,0.9_125,{0.9: 2.050222006676556},{0.9: 0.17370286388910575}
+tabular_robustEDAC,random_model,0.9_125,{0.9: 1.2938949449000239},{0.9: 0.17360264794875943}
+true_model,tabular_EDAC,0.9_125,{},{}
+true_model,tabular_robustEDAC,0.9_125,{},{}
+true_model,VI_model,0.9_125,{0.9: 2.8284271247461907},{0.9: 4.440892098500626e-16}
+true_model,random_model,0.9_125,{0.9: 2.23606797749979},{0.9: 0.0}
+VI_model,tabular_EDAC,0.9_125,{},{}
+VI_model,tabular_robustEDAC,0.9_125,{},{}
+VI_model,true_model,0.9_125,{},{}
+VI_model,random_model,0.9_125,{0.9: 2.23606797749979},{0.9: 0.0}
+random_model,tabular_EDAC,0.9_125,{},{}
+random_model,tabular_robustEDAC,0.9_125,{},{}
+random_model,true_model,0.9_125,{},{}
+random_model,VI_model,0.9_125,{},{}

@@ -253,7 +253,7 @@ res = np.zeros((num_seeds, l))
 gamma = 0.99
 
 lambda_list = [-0.5,0,0.5]
-agent_name = ['risk-averse', 'risk-neutral', 'risk-seeking']
+agent_name = ['risk-test']  #, 'risk-neutral', 'risk-seeking']
 for l in range(len(lambda_list)):
     agent = DQN_Agent(env_name, lr=learning_rate, lmda= lambda_list[l])
     # Training loop

@@ -127,6 +127,7 @@ class SetCritic(nn.Module):
 
         # Scale the covariance matrix using the learnable scale factor
         scaled_cov = (L @ L.transpose(1, 2))  # Reconstruct covariance and scale
+        scaled_cov = torch.inverse(scaled_cov)
 
         return mean,scale_factor, scaled_cov  # Return mean, Cholesky lower-triangular matrix, and scaled covariance
 

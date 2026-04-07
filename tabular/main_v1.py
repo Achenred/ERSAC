@@ -1,15 +1,16 @@
 import os
-# os.environ["WANDB_MODE"] = "disabled"
+os.environ["WANDB_MODE"] = "disabled"
 import wandb
 from VaRFramework.src.algorithms import *
 from discrete_env_utils import *
 import gymnasium as gym
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Define the values you want to iterate over
 models =  ['riverswim']  #['machine', 'riverswim']
-seeds =  [0,1,2,3,4,5,6,7,8,9]
-policy_types = ['risk_neutral', 'risk_averse', 'risk_seeking']
+seeds =  [2] #[0,1,2,3,4,5,6,7,8,9]
+policy_types = ['risk_neutral'] #, 'risk_averse', 'risk_seeking']
 
 # Iterate over each combination of model, seed, and policy_type
 for model in models:
@@ -31,7 +32,7 @@ for model in models:
                 "risk_tau": risk_tau,
                 "gamma": 0.9,
                 "iterations": 1500,
-                "num_samples": 100,
+                "num_samples": 1000,
                 "delta": 0.1,
                 'n_splits': 50,
                 'sample_fraction': 0.5,
@@ -103,17 +104,17 @@ for model in models:
             # Perform different value iterations and log the results
             methods = [
                 # ("parametric_RobustEDAC", rmdp.parametric_robustEDAC),
-                ("var_RobustEDAC", rmdp.var_robust_AC_mixed_actions_robustEDAC),
-                ("var_EDAC", rmdp.var_robust_AC_mixed_actions_EDAC),
-                ("asymptoticvar", rmdp.asymptotic_var_value_iteration),
-                ("var", rmdp.var_robust_value_iteration),
-                ("cvar", rmdp.cvar_robust_value_iteration),
-                ("softrobust", rmdp.soft_robust_value_iteration),
-                ("worstrobust", rmdp.worst_robust_value_iteration),
-                ("naive_bcr_l1", lambda: rmdp.compute_naive_bcr("l1")),
-                ("weighted_bcr_l1", lambda: rmdp.compute_optimized_bcr("l1", all_policies[-1][2])),
-                ("naive_bcr_linf", lambda: rmdp.compute_naive_bcr("linf")),
-                ("weighted_bcr_linf", lambda: rmdp.compute_optimized_bcr("linf", all_policies[-1][2])),
+                ("RobustEDAC", rmdp.var_robust_AC_mixed_actions_robustEDAC),
+                ("EDAC", rmdp.var_robust_AC_mixed_actions_EDAC),
+                # ("asymptoticvar", rmdp.asymptotic_var_value_iteration),
+                # ("var", rmdp.var_robust_value_iteration),
+                # ("cvar", rmdp.cvar_robust_value_iteration),
+                # ("softrobust", rmdp.soft_robust_value_iteration),
+                # ("worstrobust", rmdp.worst_robust_value_iteration),
+                # ("naive_bcr_l1", lambda: rmdp.compute_naive_bcr("l1")),
+                # ("weighted_bcr_l1", lambda: rmdp.compute_optimized_bcr("l1", all_policies[-1][2])),
+                # ("naive_bcr_linf", lambda: rmdp.compute_naive_bcr("linf")),
+                # ("weighted_bcr_linf", lambda: rmdp.compute_optimized_bcr("linf", all_policies[-1][2])),
                 ("true_model", rmdp.compute_true_value)
             ]
 
@@ -125,7 +126,8 @@ for model in models:
                     sys.exit()
                 else:
                     v, policy = method()
-                    # print(policy)
+                    print(policy)
+
                 all_policies.append((method_name, policy, v))
 
                 train_rets = rmdp.evaluate_all(policy, mdp.rewards, method_name, test=False)
@@ -139,6 +141,8 @@ for model in models:
                 episode_rewards = rmdp.simulate_policy(env, action_indices, render_final=False)
                 sim_avg = np.mean(episode_rewards)
                 sim_var = compute_value_at_risk(episode_rewards, model_params['delta'])
+                print(test_mean, sim_avg)
+                print("***********")
 
 
                 # Log results to wandb
@@ -152,3 +156,35 @@ for model in models:
 
             # Finish the wandb run
             wandb.finish()
+
+            # print(all_policies)
+            def plot_action_probabilities(models):
+                states = np.arange(models[0][1].shape[0])  # X-axis: states (same for all models)
+
+                fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
+
+                # Plot for Action 1
+                axes[0].set_title("Action 1")
+                for model_name, policy, _ in models:
+                    action_1_probs = policy[:, 0]  # Probabilities for action 1
+                    axes[0].plot(states, action_1_probs, label=model_name, marker='o')
+                axes[0].set_xlabel("States")
+                axes[0].set_ylabel("Probabilities")
+                axes[0].legend()
+                # axes[0].grid(True)
+
+                # Plot for Action 2
+                axes[1].set_title("Action 2")
+                for model_name, policy, _ in models:
+                    action_2_probs = policy[:, 1]  # Probabilities for action 2
+                    axes[1].plot(states, action_2_probs, label=model_name, marker='o')  #, linestyle='--')
+                axes[1].set_xlabel("States")
+                axes[1].legend()
+                # axes[1].grid(True)
+
+                plt.tight_layout()
+                plt.show()
+
+
+            # Call the function
+            plot_action_probabilities(all_policies)

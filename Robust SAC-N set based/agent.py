@@ -60,7 +60,7 @@ class SACN(nn.Module):
         # Actor Network 
 
         self.actor_local = Actor(state_size, action_size, hidden_size).to(device)
-        self.actor_optimizer = optim.Adam(self.actor_local.parameters(), lr=learning_rate*0.1)
+        self.actor_optimizer = optim.Adam(self.actor_local.parameters(), lr=learning_rate*5)  #5)
 
         # Assuming `n_features` corresponds to the state size, and `n_targets` corresponds to the action size
         self.critic = SetCritic(state_size, action_size).to(device)
@@ -127,10 +127,10 @@ class SACN(nn.Module):
             q_target = reward + self.gamma *(1-done)* q_min_value.unsqueeze(1) + entropy_term.unsqueeze(1)  # Shape: [batch_size]
 
 
-        q_values_mean, scaling_factor, q_values_scaled_cov = self.critic(state, action)
+        q_values_mean_original, scaling_factor, q_values_scaled_cov = self.critic(state, action)
         action_indices = action.long()
 
-        q_values_mean = torch.gather(q_values_mean, 1, action_indices)
+        q_values_mean = torch.gather(q_values_mean_original, 1, action_indices)
 
         batch_indices = torch.arange(q_values_mean.shape[0])
         selected_variances = q_values_scaled_cov[
@@ -143,20 +143,29 @@ class SACN(nn.Module):
         loss = mse_loss(q_values_min, q_target)
         loss = loss.mean()
 
-        self.eta = 0.0
+        self.eta = 0  #1e-9 #0.00001
         if self.eta > 0:
-            # Step 1: Create an action mask
-            action_expanded = action.unsqueeze(0).expand(q_values.size(0), -1, -1).long()  # [num_critics, batch_size, 1]
-            action_mask = torch.ones_like(q_values, dtype=torch.bool)  # Create a mask of shape [num_critics, batch_size, num_actions]
-            # Step 2: Mask out the selected actions
-            action_mask.scatter_(2, action_expanded, False)  # Mark the selected actions as False (mask out)
-            # Step 3: Gather Q-values for the remaining actions
-            remaining_q_values = q_values.masked_select(action_mask).view(q_values.size(0), q_values.size(1), -1)  # [num_critics, batch_size, num_actions-1]
-            mean_q_values = torch.mean(remaining_q_values, dim=0,keepdim=True)  # Shape: [1, batch_size, num_actions_remaining]
-            variance = torch.mean((remaining_q_values - mean_q_values) ** 2,dim=0)  # Shape: [batch_size, num_actions_remaining]
-            variance_loss =  torch.mean(variance)
+            # Step 1: Extract the diagonal elements (variances sigma_aa) for all observations
+            sigma_diag = torch.diagonal(q_values_scaled_cov, dim1=1, dim2=2)  # Shape will be (k, n)
+            # Step 2: Compute mu_a + sigma_aa and mu_a - sigma_aa for all observations at once
+            mu_plus_sigma = q_values_mean_original + torch.sqrt(sigma_diag)*scaling_factor
+            mu_minus_sigma = -(q_values_mean_original - torch.sqrt(sigma_diag)*scaling_factor)
+            # Step 3: Concatenate the results along the last axis to form the shape (k, 2n)
+            result = torch.cat((mu_plus_sigma, mu_minus_sigma), dim=1)
 
-            loss += self.eta * variance_loss
+            values_at_indices = result.gather(1, action_indices)  # Shape (256, 1)
+            # Step 2: Subtract the values from all elements in the corresponding rows
+            diff = result - values_at_indices  # Broadcasting will happen here, resulting in shape (256, 4)
+            # Step 3: Set the values at the specified indices to zero
+            diff.scatter_(1, action_indices, 0)  # Set the subtracted values to zero
+            diff_expanded = diff.unsqueeze(2)
+
+            result_tensor = diff_expanded @ diff_expanded.transpose(2, 1)  # Shape (256, 4, 4)
+            upper_triangular = torch.triu(result_tensor, diagonal=1)  # Exclude diagonal, keep upper triangle
+            final_sum = upper_triangular.sum(dim=(1, 2)).unsqueeze(1) #*(1/(result.shape[1]-1))  # Shape (256, 1)
+            EDAC_loss = torch.sum(final_sum)
+            loss += self.eta * EDAC_loss
+        # print(EDAC_loss)
         return loss
 
     def soft_update(self, target: nn.Module, source: nn.Module, tau: float):

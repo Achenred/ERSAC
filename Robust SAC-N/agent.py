@@ -35,7 +35,7 @@ class SACN(nn.Module):
         self.tau = 1e-2
         hidden_size = 256
         self.num_critics = 10
-        learning_rate = 5e-4*5
+        learning_rate = 5e-4
         self.clip_grad_param = 1
 
         self.target_entropy = -action_size  # -dim(A)
@@ -134,8 +134,8 @@ class SACN(nn.Module):
             q_next_min = q_next_summed.min(dim=0).values
 
             entropy = self.alpha.to(self.device) * torch.mul(next_action_probs,next_action_log_prob).sum(dim=1)
-
             q_target = reward + self.gamma*(1 - done)*(q_next_min - entropy).unsqueeze(1)
+
 
 
         q_values = self.critic(state, action)
@@ -149,6 +149,7 @@ class SACN(nn.Module):
 
         # loss = (1/q_target.shape[0])*((q_values_gathered - q_target.view(1, -1)) ** 2).mean(dim=1).sum() #dim=0)
         self.qf_criterion = nn.MSELoss(reduction='none')
+
         loss = self.qf_criterion(q_values_gathered, q_target.detach().unsqueeze(0))
 
         loss = loss.mean(dim=(1, 2)).sum()

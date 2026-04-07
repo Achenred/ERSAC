@@ -1,0 +1,6 @@
+
+torch
+torchvision
+minari
+gymnasium
+gymnasium[atari]
